@@ -1,1 +1,0 @@
-# SE-Education-Assistant-System
