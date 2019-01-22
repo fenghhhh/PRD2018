@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <title>影响分析</title>    <style type="text/css">    	br {mso-data-placement:same-cell;}        table.thin {            border-collapse: collapse;            border: .5pt solid #000;            background-color: white;            word-break: break-all;            word-wrap: break-word;            table-layout: fixed;        }        .tr_cls {            padding: 1px;            border-collapse: collapse;            border: .5pt solid #000;            background-color: white;        }        .td_cls {            padding: 5px;            border-collapse: collapse;            border: .5pt solid #000;            vertical-align: middle;            text-align: left;            word-break: break-all;            word-wrap: break-word;            background-color: white;        }        .td_center_cls {            padding: 5px;            border-collapse: collapse;            border: .5pt solid #000;            vertical-align: middle;            text-align: center;            background-color: white;        }        .td_right_cls {            padding: 5px;            border-collapse: collapse;            border: .5pt solid #000;            vertical-align: middle;            text-align: right;            background-color: white;        }        .thead_cls {            cursor: pointer;            font-family: "榛戜綋";            background-color: white;        }        .th_cls {            padding: 5px;            border-collapse: collapse;            border: .5pt solid #000;            vertical-align: middle;            text-align: center;            background-color: white;        }        #fixed {            position: fixed;            left: 400px;            top: 100px;        }        .title_report {            color: #03005C;            font-family: "榛戜綋";            font-size: 30px;            font-weight: 500;            line-height: 35px;            overflow: hidden;        }    </style></head><body>
+      		<!-- 	<div align="left" style="width:89%;font-weight: bold;">一、综合分析（分析&nbsp;<span style="color:blue">3</span>&nbsp;层）</div>
+   			<p/>
+			<br/>
+	   		<table border="1" cellpadding="0" cellspacing="0" width="95%">
+	   			<tr align="center">
+						<td style="font-family: '黑体';">序号</td>
+						<td style="font-family: '黑体';">被影响文档及版本</td>
+						<td style="font-family: '黑体';">被影响条目数量</td>
+						<td style="font-family: '黑体';">被影响条目比例</td>
+				</tr>
+				
+					
+		   				<tr>
+		   					<td align="center" width="40px">1</td>
+		   					<td align="left" width="400px"> 管理员需求(当前版本)</td>
+		   					<td align="center" width="125px">
+		   					2
+				   			</td> 
+		   					<td align="center" width="125px">3.57%</td>
+		   				</tr>
+		   			
+					
+			</table>	
+			<p/>
+			<br/> -->
+			<BR>
+			<br>
+			<BR><div align="left" style="width:89%;font-weight: bold;">条目影响详细分析（分析&nbsp;<span style="color:blue">3</span>&nbsp;层）</div>
+			<BR>
+			<br>
+			<table width="95%">	
+				<tbody><tr align="center">
+						<td style="font-family: '黑体';">序号</td>
+						<td style="font-family: '黑体';">被影响文档及版本</td>
+						<td style="font-family: '黑体';">造成影响文档及版本</td>
+						<td style="font-family: '黑体';">被影响条目数量</td>
+						<td style="font-family: '黑体';">被影响条目比例</td>
+				</tr>
+		   		
+		   			
+		   				<tr>
+		   					<td align="center" width="40px">1</td>
+		   					<td align="left" width="400px"> 管理员需求(当前版本)</td>
+		   					<td align="left" width="400px">管理员需求(当前版本)</td>
+		   					<td align="center" width="125px">
+		   					 2
+				   			</td> 
+		   					<td align="center" width="125px">3.57%</td>
+		   				</tr>
+		   			
+		   		
+	   		</tbody></table>
+	   		
+	   		<BR><BR>
+	   		<BR><div align="left" style="width:89%;font-weight: bold;">影响全过程</div>
+		    <table width="95%">
+			    <tbody><tr>
+			    	<td align="center" style="font-family: '黑体';">序号</td>
+			    	<td align="left" style="font-family: '黑体';">源条目标识</td>
+			    	<td align="center" style="font-family: '黑体';">源条目内容</td>
+			    	<td align="center" style="font-family: '黑体';">级联影响（全过程）</td>
+			    	<td align="left" style="font-family: '黑体';">被影响文档</td>
+			    	<td align="left" style="font-family: '黑体';">被影响条目标识</td>
+			    	<td align="left" style="font-family: '黑体';">被影响条目标题</td>
+			    </tr>
+			  
+			  
+			    
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">1</td>
+		  					<td width="60px" align="center">
+		  						<a href="&#10;&#9;&#9;&#9;&#9;   &#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;   &#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;   &#9;&#9;&#9;&#9;&#9;&#9;/http://localhost:80/loadItemInfoPage.action?editionUid=f0b2f64033f74a7b99fd152133f9521f&amp;formatItemUid=faa0da1422504fa9b2ae2377ddc398c9" target="_blank">
+			   						Uc-M-54
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">管理员添加网站首页动图</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">管理员需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=f0b2f64033f74a7b99fd152133f9521f&amp;formatItemUid=faa0da1422504fa9b2ae2377ddc398c9" target="_blank">Uc-M-54</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">管理员需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="&#10;&#9;&#9;&#9;   &#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;   &#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;   &#9;&#9;&#9;&#9;&#9;&#9;/loadItemInfoPage.action?editionUid=f0b2f64033f74a7b99fd152133f9521f&amp;formatItemUid=12eded4266b94f1193551bc841a61279" target="_blank">
+		  							Uc-M-56
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">管理员删除网站首页动图</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">2</td>
+		  					<td width="60px" align="center">
+		  						<a href="&#10;&#9;&#9;&#9;&#9;   &#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;   &#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;   &#9;&#9;&#9;&#9;&#9;&#9;/http://localhost:80/loadItemInfoPage.action?editionUid=f0b2f64033f74a7b99fd152133f9521f&amp;formatItemUid=faa0da1422504fa9b2ae2377ddc398c9" target="_blank">
+			   						Uc-M-54
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">管理员添加网站首页动图</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">管理员需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=f0b2f64033f74a7b99fd152133f9521f&amp;formatItemUid=faa0da1422504fa9b2ae2377ddc398c9" target="_blank">Uc-M-54</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">管理员需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="&#10;&#9;&#9;&#9;   &#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;   &#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;   &#9;&#9;&#9;&#9;&#9;&#9;/loadItemInfoPage.action?editionUid=f0b2f64033f74a7b99fd152133f9521f&amp;formatItemUid=d3c74f5409f34b3fb080c20373d40252" target="_blank">
+		  							Uc-M-55
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">管理员修改网站首页动图</div></td>
+						</tr>			    	
+			    	
+			    
+		    </tbody></table>
+		    <BR>
+<!--  		    <div align="left" style="width:89%;font-weight: bold;">条目间直接影响</div>
+		    <table border="1" cellpadding="0" cellspacing="0">
+  			<tr align="center">
+	  			<td style="font-family: '黑体';">序号</td>
+	  			<td style="font-family: '黑体';">源文档/版本</td>
+	  			<td style="font-family: '黑体';">源条目标识</td>
+	  			<td style="font-family: '黑体';">源条目概要</td>
+	  			<td style="font-family: '黑体';">文档/版本</td>
+	  			<td style="font-family: '黑体';">条目标识</td>
+	  			<td style="font-family: '黑体';">条目标题</td>
+  			</tr>
+  			
+  		</table>-->
+	   		<BR></body></html>
