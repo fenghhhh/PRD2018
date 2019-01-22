@@ -1,0 +1,71 @@
+.project2{
+	margin-top: 30px;
+	display: flex;
+	background-color: #ddded8;
+	background-size: 75%;
+}
+
+.proleft{
+	margin-left: 15px;
+	width: 280px;
+}
+
+.myself img{
+	height: 210px;
+	width: 210px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+.myself p{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 5px;
+	font-family: "mv boli";
+}
+
+.prolist{
+	margin-top: 10px;
+}
+
+.prolist ul>li{
+	text-align: center;
+	line-height: 30px;
+}
+
+.partener{
+	margin-top: 15px;
+}
+
+.partener h4{
+	text-align: center;
+	font-family: "mv boli";
+	background-color: #E5E5E5;
+	color: #1D5987;
+}
+
+.dangqian{
+	background-color: #164669;
+}
+
+.fdangqian{
+	background-color: #1D5987;
+}
+
+.proright{
+	margin-left: 70px;
+	margin-top: 30px;
+}
+
+.proright p{
+	font-family: "arial black";
+}
+
+.tishi{
+	font-size: 16px;
+}
+
+.jinggao{
+	color: rgba(214,92,92,0.6);
+	font-size: 18px;
+}

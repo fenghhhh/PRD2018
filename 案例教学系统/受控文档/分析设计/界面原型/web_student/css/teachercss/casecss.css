@@ -1,0 +1,50 @@
+.caseproject{
+	background-color: #ddded8;
+	border-top-style: solid;
+	border-top-color: #2d3e50;
+	border-top-width: 15px;
+}
+
+.caseproject h3{
+	text-align: center;
+	margin-top: 20px;
+	font-family: "arial black";
+}
+
+.caseproject input{
+	width: 400px;
+	margin-left: 470px;
+}
+
+.caseproject select{
+	width: 400px;
+	margin-left: 470px;
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: "arial black";
+}
+
+.caseproject a{
+	margin-left: 425px;
+	font-family: "arial black";
+}
+
+.caseproject button{
+	width: 80px;
+	margin-top: 20px;
+	margin-left: 790px;
+}
+
+.tt1{
+	margin-left: 400px;
+	margin-top: 10px;
+	font-size: 17px;
+	font-family: "arial black";
+}
+
+.tt2{
+	width: 430px;
+	margin-left: 470px;
+	color: rgba(214,92,92,0.7);
+	font-family: "arial black";
+}

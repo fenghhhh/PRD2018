@@ -1,0 +1,204 @@
+.project2{
+	margin-top: 30px;
+	display: flex;
+}
+
+.up{
+	display: flex;
+	height: 220px;
+	border-bottom-style: solid;
+	border-bottom-color: #1D5987;
+	margin-top: 10px;
+}
+
+.down{
+	display: flex;
+}
+
+.down{
+	border-top-style: solid;
+	border-top-color: #1D5987;
+}
+
+.proleft{
+	margin-left: 15px;
+	width: 280px;
+}
+
+.myself img{
+	height: 210px;
+	width: 210px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+.myself p{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 5px;
+	font-family: "mv boli";
+}
+
+.prolist{
+	margin-top: 10px;
+}
+
+.prolist ul>li{
+	text-align: center;
+	line-height: 30px;
+	background-color: #1D5987;
+}
+
+.partener{
+	margin-top: 15px;
+}
+
+.partener h4{
+	text-align: center;
+	font-family: "mv boli";
+	background-color: #E5E5E5;
+	color: #1D5987;
+}
+
+.promid{
+	margin-left: 10px;
+}
+
+.up li{
+	text-align: center;
+	line-height: 40px;
+	font-size: 17px;
+	font-family: "arial black";
+}
+
+.up div{
+	width: 150px;
+}
+
+.up select{
+	margin-left: 30px;
+	margin-top: 8px;
+	height: 32px;
+	width: 100px;
+	font-family: "arial black";
+	text-align: center;
+}
+
+.down{
+	margin-top: 10px;
+}
+
+.proright{
+	margin-left: 10px;
+}
+
+.down div{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.down ul>li{
+	line-height: 45px;
+	font-size: 17px;
+	font-family: "arial black";
+}
+
+.down p{
+	margin-top: 10px;
+	line-height: 30px;
+	font-size: 17px;
+	font-family: "arial black";
+	text-align: center;
+}
+
+.sec1{
+	height: 30px;
+	margin-top: 0px;
+	font-family: "comic sans ms";
+}
+
+.sec2{
+	height: 30px;
+	margin-top: 12px;
+	font-family: "comic sans ms";
+}
+
+.down button{
+	margin-top: 10px;
+	margin-left: 15px;
+	color: #1D5987;
+}
+
+.zuixinxiaoxi{
+	height: 240px;
+}
+
+.zuixinxiaoxi p{
+	background-color: #E5E5E5;
+	text-align: center;
+	font-family: "arial black";
+	font-size: 20px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+.jishitongxun{
+	margin-top: 10px;
+	height: 230px;
+}
+
+.jishitongxun p{
+	background-color: #E5E5E5;
+	text-align: center;
+	font-family: "arial black";
+	font-size: 20px;
+	height: 30px;
+}
+
+.proright select{
+	margin-top: 10px;
+}
+
+.project2{
+	background: url(../../images/bg/2.jpg);
+	background-size: 75%;
+}
+
+.daohang{
+	display: flex;
+}
+
+.yuan{
+	width: 30px;
+	height: 30px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: #1D5987;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px 2px #4E555B;
+}
+
+.yuan p{
+	text-align: center;
+	margin-top: 2px;
+	color: white;
+	font-family: "arial black";
+	font-size: 30px;
+}
+
+.lan{
+	width: 380px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 20px;
+	box-shadow: 5px 5px 5px 2px #4E555B;
+	background-color: #1D5987;
+	border-radius: 30px;
+}
+
+.lan p{
+	margin-left: 20px;
+	margin-top: 2px;
+	font-family: "arial black";
+	color: white;
+}

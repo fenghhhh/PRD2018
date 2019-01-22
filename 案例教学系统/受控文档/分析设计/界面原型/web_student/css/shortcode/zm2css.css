@@ -1,0 +1,86 @@
+#zmenu ul{
+	background-color: #1D5987;
+	width: 350px;
+	margin-top: 30px;
+	background: rgba(255, 255, 255, 0) none repeat scroll 0 0 !important;
+}
+
+#zmenu ul>li{
+	line-height: 27px;
+	font-size: 25px;
+	text-align: center;
+	font-family: "mv boli";
+	border-style: solid;
+	border-color: rgba(255,255,255,0);
+	border-width: 8px;
+}
+
+.zoneplace{
+	display: flex;
+	background:url(../../images/bg/2.jpg);
+}
+
+.touxiang{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.touxiang img{
+	height: 230px;
+	width: 230px;
+	margin-left: 40px;
+}
+
+.down{
+	display: flex;
+	margin-top: 40px;
+	margin-left: 40px;
+	width: 800px;
+}
+
+.down ul li{
+	line-height: 38px;
+	text-align: center;
+}
+
+.ttl{
+	font-size: 17px;
+	color: #5A6268;
+	font-family: "arial black";
+}
+
+.fttl{
+	font-size: 15px;
+	font-family: "comic sans ms";
+}
+
+.down select{
+	width: 90px;
+	height: 25px;
+	margin-top: 12px;
+	margin-left: 20px;
+	font-family: "arial black";
+}
+
+.down button{
+	width: 90px;
+	height: 25px;
+	margin-top: 12px;
+	margin-left: 20px;
+	font-family: "arial black";
+	background-color: rgba(240,202,49,0.6);
+}
+
+.down div{
+	width: 180px;
+}
+
+.zoneright h3{
+	margin-top: 20px;
+	font-family: "arial black";
+}
+
+.zoneright p{
+	color: rgba(214,92,92,0.7);
+	font-family: "arial black";
+}

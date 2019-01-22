@@ -1,0 +1,92 @@
+.project2{
+	margin-top: 30px;
+	display: flex;
+	background-color: #ddded8;
+	background-size: 75%;
+}
+
+.proleft{
+	margin-left: 15px;
+	width: 280px;
+}
+
+.myself img{
+	height: 210px;
+	width: 210px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+.myself p{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 5px;
+	font-family: "mv boli";
+}
+
+.prolist{
+	margin-top: 10px;
+}
+
+.prolist ul>li{
+	text-align: center;
+	line-height: 30px;
+}
+
+.partener{
+	margin-top: 15px;
+}
+
+.partener h4{
+	text-align: center;
+	font-family: "mv boli";
+	background-color: #E5E5E5;
+	color: #1D5987;
+}
+
+.dangqian{
+	background-color: #164669;
+}
+
+.fdangqian{
+	background-color: #1D5987;
+}
+
+.proright{
+	margin-left: 70px;
+	margin-top: 30px;
+	height: 500px;
+	width: 850px;
+	background-color: rgba(255,255,255,0.4);
+}
+
+.proright h4{
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: "arial black";
+}
+
+.jishi{
+	margin-left: 20px;
+	margin-top: 10px;
+	height: 440px;
+	width: 830px;
+	overflow-x: hidden;
+}
+
+.jishi p{
+	font-family: "arial black";
+	font-size: 17px;
+}
+
+.jishi a{
+	color: #1D5987;
+}
+
+.new{
+	color: #F0CA31;
+}
+
+.old{
+	color: #777777;
+}

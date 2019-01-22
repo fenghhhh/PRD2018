@@ -1,0 +1,171 @@
+.project2{
+	margin-top: 30px;
+	display: flex;
+}
+
+.titles{
+	display: flex;
+}
+
+.tit1{
+	margin-top: 20px;
+	margin-left: 70px;
+}
+
+.tit2{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.titles li{
+	width: 240px;
+}
+
+.promid{
+	width: 740px;
+}
+
+.proleft{
+	margin-left: 15px;
+	width: 280px;
+}
+
+.myself img{
+	height: 210px;
+	width: 210px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+.myself p{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 5px;
+	font-family: "mv boli";
+}
+
+.prolist{
+	margin-top: 10px;
+}
+
+.prolist ul>li{
+	text-align: center;
+	line-height: 30px;
+	background-color: #1D5987;
+}
+
+.partener{
+	margin-top: 15px;
+}
+
+.partener h4{
+	text-align: center;
+	font-family: "mv boli";
+	background-color: #E5E5E5;
+	color: #1D5987;
+}
+
+.promid{
+	margin-left: 10px;
+}
+
+.up li{
+	text-align: center;
+	line-height: 40px;
+	font-size: 17px;
+	font-family: "comic sans ms";
+}
+
+.proright{
+	margin-left: 10px;
+}
+
+.sec1{
+	height: 30px;
+	margin-top: 0px;
+	font-family: "comic sans ms";
+}
+
+.sec2{
+	height: 30px;
+	margin-top: 12px;
+	font-family: "comic sans ms";
+}
+
+.zuixinxiaoxi{
+	height: 240px;
+}
+
+.zuixinxiaoxi p{
+	background-color: #E5E5E5;
+	text-align: center;
+	font-family: "arial black";
+	font-size: 20px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+.jishitongxun{
+	margin-top: 10px;
+	height: 230px;
+}
+
+.jishitongxun p{
+	background-color: #E5E5E5;
+	text-align: center;
+	font-family: "arial black";
+	font-size: 20px;
+	height: 30px;
+}
+
+.proright select{
+	margin-top: 10px;
+}
+
+.project2{
+	background: url(../../images/bg/2.jpg);
+	background-size: 75%;
+}
+
+.down{
+	margin-top: 30px;
+}
+
+.daohang{
+	display: flex;
+}
+
+.yuan{
+	width: 30px;
+	height: 30px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: #1D5987;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px 2px #4E555B;
+}
+
+.yuan p{
+	text-align: center;
+	margin-top: 2px;
+	color: white;
+	font-family: "arial black";
+	font-size: 30px;
+}
+
+.lan{
+	width: 360px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 20px;
+	box-shadow: 5px 5px 5px 2px #4E555B;
+	background-color: #1D5987;
+	border-radius: 30px;
+}
+
+.lan p{
+	margin-left: 20px;
+	margin-top: 2px;
+	font-family: "arial black";
+	color: white;
+}

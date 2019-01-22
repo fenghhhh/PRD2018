@@ -1,0 +1,110 @@
+.caseproject{
+	background-color: #ddded8;
+	border-top-style: solid;
+	border-top-color: #2d3e50;
+	border-top-width: 15px;
+	display: flex;
+}
+
+.lleft h3{
+	text-align: center;
+	margin-top: 20px;
+	font-family: "arial black";
+}
+
+.lleft input{
+	width: 400px;
+	margin-left: 70px;
+}
+
+.lleft select{
+	width: 400px;
+	margin-left: 70px;
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: "arial black";
+}
+
+.lleft a{
+	width: 400px;
+	margin-left: 70px;
+	font-family: "arial black";
+}
+
+.lleft button{
+	width: 80px;
+	margin-top: 20px;
+	margin-left: 390px;
+}
+
+.tt1{
+	margin-top: 10px;
+	font-size: 17px;
+	font-family: "arial black";
+}
+
+.tt2{
+	width: 430px;
+	margin-left: 70px;
+	color: rgba(214,92,92,0.7);
+	font-family: "arial black";
+}
+
+.lleft{
+	width: 470px;
+	margin-left: 100px;
+}
+
+.rright{
+	/*border-left-style: solid;*/
+	display: flex;
+}
+
+.fr{
+	margin-left: 110px;
+	margin-top: 30px;
+}
+
+.rright h3{
+	text-align: center;
+	font-family: "arial black";
+}
+
+.rright div{
+	margin-left: 15px;
+}
+
+.rright ul li{
+	line-height: 42px;
+	text-align: center;
+}
+
+.ttl{
+	font-size: 17px;
+	color: #5A6268;
+	font-family: "arial black";
+}
+
+.fttl{
+	font-size: 15px;
+	font-family: "arial black";
+}
+
+.fr p{
+	margin-top: 10px;
+}
+
+.fr input{
+	margin-left: 50px;
+	width: 430px;
+}
+
+.fr a{
+	margin-left: 50px;
+	font-family: "arial black";
+}
+
+.fr button{
+	margin-top: 30px;
+	margin-left: 540px;
+}

@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Home</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.jpg">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- This core.css file contents all plugings css file. -->
+		<link rel="stylesheet" href="css/core.css">
+		<!-- Theme shortcodes/elements style -->
+		<link rel="stylesheet" href="css/shortcode/shortcodes.css">
+		<!-- Theme main style -->
+		<link rel="stylesheet" href="style.css">
+		<!-- Responsive css -->
+		<link rel="stylesheet" href="css/responsive.css">
+		<!-- Style customizer (Remove these two lines please) -->
+		<link rel="stylesheet" href="css/style-customizer.css">
+		<link rel="stylesheet" href="css/shortcode/doccss.css" />
+		<link href="#" data-style="styles" rel="stylesheet">
+
+		<!--<link rel="stylesheet" href="css/reset.css">-->
+		<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+		<!-- Modernizr JS -->
+		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	</head>
+
+	<body>
+		<div class="Message" id="tanchuang">
+			<div class="Message-icon">
+				<i class="fa fa-bell-o"></i>
+			</div>
+			<div class="Message-body">
+				<p>You have successfully established a new project. Would you like to jump to the project interface?</p>
+				<button class="Message-button" id="js-showMe"><a href="proj2.html">Page transitions</a></button>
+				<button class="Message-button js-messageClose" id="buth">No Thanks</button>
+			</div>
+			<button class="Message-close js-messageClose"><i class="fa fa-times"></i></button>
+		</div>
+		<script type="text/javascript">
+			window.onload = function() {
+				var btn = document.getElementById('btnn');
+				var flt = document.getElementById('tanchuang');
+				btn.onclick = function() {
+					event.cancelBubble = true;
+					var x = btn.offsetLeft - 750 + 'px';
+					var y = btn.offsetTop - 400 + 'px';
+					flt.style.top = y;
+					flt.style.left = x;
+					flt.style.display = 'flex';
+				}
+				document.onclick = function() {
+					flt.style.display = 'none';
+				}
+			}
+		</script>
+		<!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+		<!-- Body main wrapper start -->
+		<div class="wrapper">
+			<!-- Start of header area -->
+			<header class="header-area">
+				<div class="header-top navy-bg ptb-20">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="header-top-info">
+									<ul>
+										<li>
+											<a href="#">
+												<i class="icofont icofont-ui-call"></i> Hotline (+123) 45 67 89 21
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="icofont icofont-envelope"></i> devitmes@gmail.com
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 hidden-xs">
+								<div class="header-top-right f-right">
+									<div class="header-top-social f-right">
+										<p>Follow Us :</p>
+										<ul>
+											<li>
+												<a href="#"><i class="icofont icofont-social-facebook"></i></a>
+											</li>
+											<li>
+												<a href="#"><i class="icofont icofont-social-twitter"></i></a>
+											</li>
+											<li>
+												<a href="#"><i class="icofont icofont-social-github"></i></a>
+											</li>
+										</ul>
+									</div>
+									<div class="header-top-language f-left">
+										<ul>
+											<li>
+												<a href="#" data-toggle="dropdown">English<i class="icofont icofont-simple-down"></i></a>
+												<ul class="dropdown-menu">
+													<li>
+														<a href="#">English</a>
+													</li>
+													<li>
+														<a href="#">English</a>
+													</li>
+													<li>
+														<a href="#">English</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header-bottom stick-h2">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4 col-sm-12 col-xs-12">
+								<div class="logo">
+									<a href="index2.html"><img src="images/logo/logo2.jpg" alt=""> </a>
+								</div>
+							</div>
+							<div class="col-md-8 hidden-sm hidden-xs">
+								<div class="menu-area f-right">
+									<nav>
+										<ul>
+											<li>
+												<a href="index2.html">HOME</a>
+											</li>
+											<li>
+												<a href="doc.html">DOCUMENTATION</a>
+											</li>
+											<li>
+												<a href="proj_0.html">PROJECT</a>
+											</li>
+											<li>
+												<a href="zone.html">PERSONAL ZONE</a>
+											</li>
+											<!--<li><a href="page.html">PAGE</a></li>
+                                        <li><a href="contact.html">CONTACT</a></li>-->
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- mobile-menu-area start -->
+			<div class="mobile-menu-area">
+				<div class="container">
+					<div class="row">
+						<div class="hidden-lg hidden-md col-sm-12 col-xs-12">
+							<div class="mobile-menu">
+								<nav id="dropdown">
+									<ul>
+										<li class="active">
+											<a href="index.html">HOME </a>
+											<ul>
+												<li>
+													<a href="text-animation-1.html">establish example</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="about-us.html">ABOUT US </a>
+										</li>
+										<li>
+											<a href="#">DOCUMENTATION <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+											<ul>
+												<li>
+													<a href="#">shortcode style 1</a>
+													<ul>
+														<li>
+															<a href="shortcode-alert.html">alert</a>
+														</li>
+														<li>
+															<a href="shortcode-blog.html">blog</a>
+														</li>
+														<li>
+															<a href="shortcode-buttons.html">buttons</a>
+														</li>
+														<li>
+															<a href="shortcode-countdown.html">countdown</a>
+														</li>
+														<li>
+															<a href="shortcode-counter.html">counter</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="#">shortcode style 2</a>
+													<ul>
+														<li>
+															<a href="shortcode-course.html">course</a>
+														</li>
+														<li>
+															<a href="shortcode-event.html">event</a>
+														</li>
+														<li>
+															<a href="shortcode-map.html">map</a>
+														</li>
+														<li>
+															<a href="shortcode-progressbar.html">progressbar</a>
+														</li>
+														<li>
+															<a href="shortcode-service.html">service</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="#">shortcode style 3</a>
+													<ul>
+														<li>
+															<a href="shortcode-social-icon.html">social icon</a>
+														</li>
+														<li>
+															<a href="shortcode-tab.html">tab</a>
+														</li>
+														<li>
+															<a href="shortcode-team.html">team</a>
+														</li>
+														<li>
+															<a href="shortcode-testimonial.html">testimonial</a>
+														</li>
+														<li>
+															<a href="shortcode-testimonial-2.html">testimonial 2</a>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">PROJECT <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+											<ul>
+												<li>
+													<a href="#">Header</a>
+													<ul>
+														<li>
+															<a href="header-1.html">Header One</a>
+														</li>
+														<li>
+															<a href="header-2.html">Header Two</a>
+														</li>
+														<li>
+															<a href="header-3.html">Header Three</a>
+														</li>
+														<li>
+															<a href="header-4.html">Header Four</a>
+														</li>
+														<li>
+															<a href="header-5.html">Header Five</a>
+														</li>
+														<li>
+															<a href="header-6.html">Header Six</a>
+														</li>
+														<li>
+															<a href="header-7.html">Header Seven</a>
+														</li>
+														<li>
+															<a href="header-8.html">Header Eight</a>
+														</li>
+														<li>
+															<a href="header-9.html">Header nine</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="#">Footer</a>
+													<ul>
+														<li>
+															<a href="footer-1.html">Footer One</a>
+														</li>
+														<li>
+															<a href="footer-2.html">Footer Two</a>
+														</li>
+														<li>
+															<a href="footer-3.html">Footer Three</a>
+														</li>
+														<li>
+															<a href="footer-4.html">Footer Four</a>
+														</li>
+														<li>
+															<a href="footer-5.html">Footer Five</a>
+														</li>
+														<li>
+															<a href="footer-6.html">Footer Six</a>
+														</li>
+														<li>
+															<a href="footer-7.html">Footer Seven</a>
+														</li>
+														<li>
+															<a href="footer-8.html">Footer Eight</a>
+														</li>
+														<li>
+															<a href="footer-9.html">Footer Nine</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="#">Page Title</a>
+													<ul>
+														<li>
+															<a href="page-title-default.html"> Default Title</a>
+														</li>
+														<li>
+															<a href="page-title-bg-fixed.html"> Background Fixed</a>
+														</li>
+														<li>
+															<a href="page-title-dark.html"> Dark Title</a>
+														</li>
+														<li>
+															<a href="page-title-no-bg.html"> No Background</a>
+														</li>
+														<li>
+															<a href="page-title-pattern.html"> Pattern Title</a>
+														</li>
+														<li>
+															<a href="page-title-solid-bg-color.html">solid Title</a>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">PERSONAL ZONE <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+											<ul>
+												<li>
+													<a href="about-us.html">Primary Message</a>
+												</li>
+												<li>
+													<a href="contact.html">My Example</a>
+												</li>
+												<li>
+													<a href="course.html">Change Password</a>
+												</li>
+												<li>
+													<a href="course-details.html">Change Buddha</a>
+												</li>
+												<li>
+													<a href="events.html">My Mile</a>
+												</li>
+												<li>
+													<a href="events-details.html">Evaluations</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="news-page.html">NEWS </a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slider-area">
+				<div class="slider-active">
+					<div class="slider-all">
+						<img src="images/slider/1.jpg" alt="">
+						<div class="slider-text-wrapper">
+							<div class="table">
+								<div class="table-cell">
+									<div class="slider-text animated">
+										<h1>Project Based Case Learning System</h1>
+										<p>This system is developed for teaching and learning in course of Software College. It is a learning system for<br>transferring, tracking, direction and management of case learning content and process rate. This system<br>imitate a virtual world, you can take any roles you want to act. These roles may be anyone in a practical<br>project. Enjoy your learning like playing a game! </p>
+										<a class="button extra-small mb-20" href="#">
+											<span>Apply Now</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slider-all">
+						<img src="images/slider/1.jpg" alt="">
+						<div class="slider-text-wrapper">
+							<div class="table">
+								<div class="table-cell">
+									<div class="slider-text animated">
+										<h1>Education For Everyone</h1>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> aliqua. minim veniam, quis nostrud exercitation ullamco </p>
+										<a class="button extra-small mb-20" href="#">
+											<span>Apply Now</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="projmessage">
+				<div class="yfkd">
+					<div class="proleft">
+						<nav id="promenuname">
+							<ul>
+								<li id="tt1">DOCUMENTATION</li>
+							</ul>
+						</nav>
+						<nav id="promenu">
+							<!--<ul>
+		    				<li><a href="">● DS_Project_1_Performance Measurement</a></li>
+		    				<li><a href="">● DS_Project_2_Sort Poems</a></li>
+		    				<li><a href="">● DS_Project_3_Hashing</a></li>
+		    				<li><a href="">● DS_Project_4_Dijkstra</a></li>
+		    				<li><a href="">● DS_Project_5_Kruskal</a></li>
+		    				<li><a href="">● DS_Project_6_Knuth-Morris-Pratt</a></li>
+		    				<li><a href="">● DS_Project_7_Möbius inversion formula</a></li>
+		    				<li><a href="">● DS_Project_8_Extended Euclidean algorithm</a></li>
+		    				<li><a href="">● DS_Project_9_Euler's totient function</a></li>
+		    			</ul>-->
+
+							<div class="s-side">
+								<ul>
+									<!--这部分是导航栏信息。-->
+									<li class="s-firstItem first">
+										<a href="#">
+											<i class="fa fa-home"></i>
+											<span>HOME</span>
+										</a>
+									</li>
+
+									<li class="first">
+										<div class="d-firstNav s-firstNav clearfix">
+											<i class="fa fa-bars"></i>
+											<span>Software Engineering</span>
+											<i class="fa fa-caret-right fr "></i>
+										</div>
+										<ul class="d-firstDrop s-firstDrop">
+											<li class="s-secondItem">
+												<a href="doc.html" href="#tooltips" class="tooltips">
+													<i class="fa fa-minus-square-o"></i>
+													<p>Uploader: Professor Yang<br>Time: 2011/10/14</p>
+													<span>DS_Project_1_Performance Measurement</span>
+												</a>
+											</li>
+											<li class="s-secondItem">
+												<a href="#" href="#tooltips" class="tooltips">
+													<i class="fa fa-minus-square-o"></i>
+													<p>Uploader: Professor Yang<br>Time: 2011/10/14</p>
+													<span>DS_Project_2_Sort Poems</span>
+												</a>
+											</li>
+											<li class="s-secondItem">
+												<a href="#" href="#tooltips" class="tooltips">
+													<i class="fa fa-minus-square-o"></i>
+													<p>Uploader: Professor Yang<br>Time: 2011/10/14</p>
+													<span>DS_Project_3_Hashing</span>
+												</a>
+											</li>
+											<li class="s-secondItem">
+												<a href="#" href="#tooltips" class="tooltips">
+													<i class="fa fa-minus-square-o"></i>
+													<p>Uploader: Professor Yang<br>Time: 2011/10/14</p>
+													<span>DS_Project_4_Dijkstra</span>
+												</a>
+											</li>
+											<li class="s-secondItem">
+												<a href="#" href="#tooltips" class="tooltips">
+													<i class="fa fa-minus-square-o"></i>
+													<p>Uploader: Professor Yang<br>Time: 2011/10/14</p>
+													<span>DS_Project_5_Kruskal</span>
+												</a>
+											</li>
+											<li class="s-secondItem">
+												<a href="#" href="#tooltips" class="tooltips">
+													<i class="fa fa-minus-square-o"></i>
+													<p>Uploader: Professor Yang<br>Time: 2011/10/14</p>
+													<span>DS_Project_8_Extended Euclidean algorithm</span>
+												</a>
+											</li>
+											<li class="s-secondItem">
+												<a href="#" href="#tooltips" class="tooltips">
+													<i class="fa fa-minus-square-o"></i>
+													<p>Uploader: Professor Yang<br>Time: 2011/10/14</p>
+													<span>DS_Project_9_Euler's totient function</span>
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="first">
+										<div class="d-firstNav s-firstNav">
+											<i class="fa fa-bars"></i>
+											<span>Number Theory</span>
+											<i class="fa fa-caret-right fr"></i>
+										</div>
+										<ul class="d-firstDrop s-firstDrop">
+											<li class="s-secondItem">
+												<i class="fa fa-minus-square-o"></i>
+												
+												<a href="#" href="#tooltips" class="tooltips"><p>Uploader: Professor Yang<br>Time: 2011/10/14</p>DS_Project_6_Knuth-Morris-Pratt</a>
+											</li>
+											<li class="s-secondItem">
+												<i class="fa fa-minus-square-o"></i>
+												
+												<a href="#" href="#tooltips" class="tooltips"><p>Uploader: Professor Yang<br>Time: 2011/10/14</p>DS_Project_7_Möbius inversion formula</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+
+						</nav>
+					</div>
+					<div class="proright">
+						<h2>CASE DETAILS</h2>
+						<nav class="up">
+							<li>Case Name: DS_Project_1_Performance Measurement</li>
+							<li>Upload Time: 2010-03-04 21:38:27</li>
+						</nav>
+						<div class="down">
+							<div class="fk">
+								<div class="fktt">Case Description : </div>
+								<div class="fknr">Performance measurement is the process of collecting, analyzing and/or reporting information regarding the performance of an individual, group, organization, system or component. Performance measurement is not a new concept, some of the earliest records of human activity relate to the counting or recording of activities.</div>
+							</div>
+							<div class="fk">
+								<div class="fktt">Upper Limit of Players : </div>
+								<div class="fknr">Five</div>
+							</div>
+							<div class="fk">
+								<div class="fktt">The Number of Complete : </div>
+								<div class="fknr">Three</div>
+							</div>
+							<div class="fk">
+								<div class="fktt">Type of Case : </div>
+								<div class="fknr">None</div>
+							</div>
+							<div class="fk">
+								<div class="fktt">State : </div>
+								<div class="fknr">None</div>
+							</div>
+
+						</div>
+						<button><a href="proj.html">DETAILED INFORMATION</a></button>
+					</div>
+				</div>
+
+				<div class="xinjian">
+					<h2 id="tt2">Append the Instance</h2>
+					<p id="name">Name:</p>
+					<input type="text" name="message" />
+					<p id="tishi">The instance name is represented by 6-30 letters, Numbers, or underscores, and is named after a letter.</p>
+					<button id="btnn">APPEND</button>
+				</div>
+			</div>
+
+			<!-- jquery latest version -->
+			<script src="js/vendor/jquery-1.12.0.min.js"></script>
+			<!-- Bootstrap framework js -->
+			<script src="js/bootstrap.min.js"></script>
+			<!--  ajax-mail.js  -->
+			<script src="js/ajax-mail.js"></script>
+			<!-- All js plugins included in this file. -->
+			<script src="js/plugins.js"></script>
+			<script src="js/main.js"></script>
+			<script type="text/javascript" src="js/jquery.min4.js"></script>
+			<script type="text/javascript" src="js/index4.js"></script>
+			<script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+	</body>
+
+</html>

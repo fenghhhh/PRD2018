@@ -1,0 +1,204 @@
+.wjss{
+	display: flex;
+}
+
+.proleft{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+#promenu{
+	width: 340px;
+	height: 440px;
+	background-color: #1D5987;
+	font-size: 17px;
+	line-height: 30px;
+	overflow-x: hidden;
+	font-family: "mv boli";
+}
+
+.prorright a{
+	color: #000000;
+}
+
+#promenuname{
+	width: 340px;
+	height: 30px;
+	background-color: #1D5987;
+	font-size: 17px;
+}
+
+#tt1{
+	width: 360px;
+	height: 30px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	font-family: "arial black";
+}
+
+.projmessage{
+	display: flex;
+}
+
+.butt{
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 570px;
+	font-family: "mv boli";
+	font-size: 15px;
+	width: 60px;
+	height: 30px;
+}
+
+.butt button{
+	color: #1D5987;
+	border-color: floralwhite;
+	border-radius: 5px;
+}
+
+.s-side{
+	color: white;
+}
+
+.d-firstNav{
+	margin-left: 10px;
+	font-family: "arial black";
+	color: darkgrey;
+}
+
+.s-firstItem{
+	margin-left: 10px;
+	font-family: "arial black";
+	color: darkgrey;
+}
+
+.d-firstDrop{
+	margin-left: 50px;
+}
+
+.d-secondNav,.s-secondItem{
+	font-family: "arial black";
+}
+
+.d-secondDrop{
+	margin-left: 50px;
+}
+
+#con5{
+	width: 740px;
+	font-size: 15px;
+	margin-top: 30px;
+}
+
+.border{
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+
+.prorright{
+	z-index: 1000;
+	width: 340px;
+	height: 500px;
+	margin-top: 20px;
+	margin-left: -120px;
+}
+
+.container6 {
+	width: 340px;
+	position: relative;
+}
+
+.container6:after {
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+}
+
+.box {
+	float: left;
+	height: 230px;
+	margin-top: 10px;
+	width: 100%;
+	padding: 1em;
+	background: #fff;
+	overflow-x: hidden;
+}
+
+.daohang{
+	display: flex;
+}
+
+.yuan{
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+	background-color: #1D5987;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px 2px #4E555B;
+}
+
+.yuan p{
+	text-align: center;
+	margin-top: 2px;
+	color: white;
+	font-family: "arial black";
+	font-size: 30px;
+}
+
+.lan{
+	width: 160px;
+	height: 30px;
+	margin-left: 20px;
+	box-shadow: 5px 5px 5px 2px #4E555B;
+	background-color: #1D5987;
+	border-radius: 30px;
+}
+
+.lan p{
+	margin-left: 20px;
+	margin-top: 2px;
+	font-family: "arial black";
+	color: white;
+}
+
+.pl{
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 560px;
+	display: flex;
+	background-color: #B2B2B2;
+	overflow-x: hidden;
+}
+
+.going h4{
+	font-family: "arial black";
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.pl1{
+	width: 130px;
+}
+
+.pl1 li{
+	margin-left: 20px;
+	line-height: 39px;
+	font-family: "arial black";
+}
+
+.pl2{
+	margin-top: 7px;
+	margin-left: 50px;
+}
+
+.pl2 p{
+	color: white;
+	font-family: "arial black";
+}
+
+

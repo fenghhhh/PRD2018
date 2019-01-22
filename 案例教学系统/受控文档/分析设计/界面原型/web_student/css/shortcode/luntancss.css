@@ -1,0 +1,52 @@
+.xinjian{
+	margin-left: 300px;
+	height: 450px;
+	width: 680px;
+}
+
+.inp1{
+	width: 610px;
+	height: 25px;
+	border-radius: 8px;
+	border-style: none;
+	font-family: "mv boli";
+}
+
+.inp2{
+	width: 680px;
+	height: 300px;
+	margin-top: -30px;
+	border-style: none;
+}
+
+.xinjian h3{
+	font-family: "arial black";
+	border-bottom-style: solid;
+	border-bottom-color: #E3E3E3;
+	border-bottom-width: 1px;
+}
+
+.tag{
+	margin-left: 15px;
+	font-family: "arial black";
+	border-style: solid;
+	border-width: 1px;
+	border-color: #C6C8CA;
+	background-color: #C6C8CA;
+	border-radius: 8px;
+	height: 25px;
+}
+
+.xinjian p{
+	font-family: "arial black";
+	color: #A1A1A0;
+}
+
+.xinjian a{
+	text-decoration: none;
+	color: #064A7A;
+}
+
+body{
+	background-color: #F0F0F0;
+}

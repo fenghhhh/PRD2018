@@ -1,0 +1,120 @@
+.project2{
+	margin-top: 30px;
+	display: flex;
+	background-color: #ddded8;
+	background-size: 75%;
+}
+
+.proleft{
+	margin-left: 15px;
+	width: 280px;
+}
+
+.myself img{
+	height: 210px;
+	width: 210px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+.myself p{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 5px;
+	font-family: "mv boli";
+}
+
+.prolist{
+	margin-top: 10px;
+}
+
+.prolist ul>li{
+	text-align: center;
+	line-height: 30px;
+}
+
+.partener{
+	margin-top: 15px;
+}
+
+.partener h4{
+	text-align: center;
+	font-family: "mv boli";
+	background-color: #E5E5E5;
+	color: #1D5987;
+}
+
+.dangqian{
+	background-color: #164669;
+}
+
+.fdangqian{
+	background-color: #1D5987;
+}
+
+.proright{
+	margin-left: 70px;
+	margin-top: 30px;
+}
+
+.proright h4{
+	font-family: "arial black";
+	margin-left: 10px;
+}
+
+.tt4{
+	height: 28px;
+	margin-left: 0px;
+	background-color: #A1A1A0;
+}
+
+.down{
+	display: flex;
+	margin-top: 40px;
+	margin-left: 40px;
+	width: 800px;
+}
+
+.down ul li{
+	line-height: 38px;
+	text-align: center;
+}
+
+.ttl{
+	font-size: 17px;
+	color: #5A6268;
+	font-family: "arial black";
+}
+
+.fttl{
+	font-size: 15px;
+	font-family: "comic sans ms";
+}
+
+.down button{
+	width: 80px;
+	height: 25px;
+	margin-top: 12px;
+	margin-left: 20px;
+	font-family: "arial black";
+}
+
+.cd1{
+	width: 180px;
+}
+
+.cd2{
+	width: 240px;
+}
+
+.but{
+	display: flex;
+}
+
+.rec{
+	background-color: rgba(124,224,100,0.6);
+}
+
+.del{
+	background-color: rgba(214,92,92,0.6);
+}
