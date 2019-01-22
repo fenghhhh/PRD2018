@@ -1,0 +1,519 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <title>影响分析</title>    <style type="text/css">    	br {mso-data-placement:same-cell;}        table.thin {            border-collapse: collapse;            border: .5pt solid #000;            background-color: white;            word-break: break-all;            word-wrap: break-word;            table-layout: fixed;        }        .tr_cls {            padding: 1px;            border-collapse: collapse;            border: .5pt solid #000;            background-color: white;        }        .td_cls {            padding: 5px;            border-collapse: collapse;            border: .5pt solid #000;            vertical-align: middle;            text-align: left;            word-break: break-all;            word-wrap: break-word;            background-color: white;        }        .td_center_cls {            padding: 5px;            border-collapse: collapse;            border: .5pt solid #000;            vertical-align: middle;            text-align: center;            background-color: white;        }        .td_right_cls {            padding: 5px;            border-collapse: collapse;            border: .5pt solid #000;            vertical-align: middle;            text-align: right;            background-color: white;        }        .thead_cls {            cursor: pointer;            font-family: "榛戜綋";            background-color: white;        }        .th_cls {            padding: 5px;            border-collapse: collapse;            border: .5pt solid #000;            vertical-align: middle;            text-align: center;            background-color: white;        }        #fixed {            position: fixed;            left: 400px;            top: 100px;        }        .title_report {            color: #03005C;            font-family: "榛戜綋";            font-size: 30px;            font-weight: 500;            line-height: 35px;            overflow: hidden;        }    </style></head><body>
+      		<!-- 	<div align="left" style="width:89%;font-weight: bold;">一、综合分析（分析&nbsp;<span style="color:blue">3</span>&nbsp;层）</div>
+   			<p/>
+			<br/>
+	   		<table border="1" cellpadding="0" cellspacing="0" width="95%">
+	   			<tr align="center">
+						<td style="font-family: '黑体';">序号</td>
+						<td style="font-family: '黑体';">被影响文档及版本</td>
+						<td style="font-family: '黑体';">被影响条目数量</td>
+						<td style="font-family: '黑体';">被影响条目比例</td>
+				</tr>
+				
+					
+		   				<tr>
+		   					<td align="center" width="40px">1</td>
+		   					<td align="left" width="400px"> 客户端需求(当前版本)</td>
+		   					<td align="center" width="125px">
+		   					17
+				   			</td> 
+		   					<td align="center" width="125px">25.0%</td>
+		   				</tr>
+		   			
+					
+			</table>	
+			<p/>
+			<br/> -->
+			<BR>
+			<br>
+			<BR><div style="width:89%;font-weight: bold;" align="left">条目影响详细分析（分析&nbsp;<span style="color:blue">3</span>&nbsp;层）</div>
+			<BR>
+			<br>
+			<table width="95%">	
+				<tbody><tr align="center">
+						<td style="font-family: '黑体';">序号</td>
+						<td style="font-family: '黑体';">被影响文档及版本</td>
+						<td style="font-family: '黑体';">造成影响文档及版本</td>
+						<td style="font-family: '黑体';">被影响条目数量</td>
+						<td style="font-family: '黑体';">被影响条目比例</td>
+				</tr>
+		   		
+		   			
+		   				<tr>
+		   					<td width="40px" align="center">1</td>
+		   					<td width="400px" align="left"> 客户端需求(当前版本)</td>
+		   					<td width="400px" align="left">客户端需求(当前版本)</td>
+		   					<td width="125px" align="center">
+		   					 17
+				   			</td> 
+		   					<td width="125px" align="center">25.0%</td>
+		   				</tr>
+		   			
+		   		
+	   		</tbody></table>
+	   		
+	   		<BR><BR>
+	   		<BR><div style="width:89%;font-weight: bold;" align="left">影响全过程</div>
+		    <table width="95%">
+			    <tbody><tr>
+			    	<td style="font-family: '黑体';" align="center">序号</td>
+			    	<td style="font-family: '黑体';" align="left">源条目标识</td>
+			    	<td style="font-family: '黑体';" align="center">源条目内容</td>
+			    	<td style="font-family: '黑体';" align="center">级联影响（全过程）</td>
+			    	<td style="font-family: '黑体';" align="left">被影响文档</td>
+			    	<td style="font-family: '黑体';" align="left">被影响条目标识</td>
+			    	<td style="font-family: '黑体';" align="left">被影响条目标题</td>
+			    </tr>
+			  
+			  
+			    
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">1</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=002b36b283f545448b752e469fbe4bfa" target="_blank">
+		  							FR-25
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">渔具店自治</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">2</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=423f49509c28465d8cc4e9f8a69c8dd1" target="_blank">
+		  							FR-14
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">钓点自治</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">3</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=53ec24f37e2a48dea466438665b8b809" target="_blank">
+		  							FR-54
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">评论</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">4</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=56180191eb274a799ed0da134347e5a8" target="_blank">
+		  							FR-48
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">我的渔友圈</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">5</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=83c8e158b41442b5805eeb8402df03cc" target="_blank">
+		  							FR-22
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">点评渔具店</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">6</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=bb000dc66a51403e888b18451ae14542" target="_blank">
+		  							FR-9
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">点评钓点</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">7</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=d1c562158c374e0c8b8238de25bbf421" target="_blank">
+		  							FR-19
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">加入约钓</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">8</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=d2549d68213d4281baae44d6090bedeb" target="_blank">
+		  							FR-18
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">基于钓点发起约钓</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">9</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a><br>------&gt;<br>客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=d2549d68213d4281baae44d6090bedeb" target="_blank">FR-18</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=4697f107da134d2db766ffee1e5961e9" target="_blank">
+		  							FR-34
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">在约钓开始前，允许群主增删人</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">10</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a><br>------&gt;<br>客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=d2549d68213d4281baae44d6090bedeb" target="_blank">FR-18</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=4b732af6368141feb07ce2f39bee8e74" target="_blank">
+		  							FR-38
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">约钓群聊</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">11</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a><br>------&gt;<br>客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=d2549d68213d4281baae44d6090bedeb" target="_blank">FR-18</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=5c9d23aa726749afb2d673046b4cc473" target="_blank">
+		  							FR-39
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">发起人发布公告</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">12</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a><br>------&gt;<br>客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=d2549d68213d4281baae44d6090bedeb" target="_blank">FR-18</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=6fde4548f7e1406489afa6a221fb42d2" target="_blank">
+		  							FR-29
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">免责条款</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">13</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a><br>------&gt;<br>客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=d2549d68213d4281baae44d6090bedeb" target="_blank">FR-18</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=9ea01a0c892248ee9490bf304e06db3b" target="_blank">
+		  							FR-35
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">在约钓开始前，允许群主手动提前结束、提前开始、取消活动</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">14</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a><br>------&gt;<br>客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=d2549d68213d4281baae44d6090bedeb" target="_blank">FR-18</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=9fb90984f0104ecfab8b1d38f3f9cc4e" target="_blank">
+		  							FR-37
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">邀请好友</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">15</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a><br>------&gt;<br>客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=d2549d68213d4281baae44d6090bedeb" target="_blank">FR-18</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=bfd9f13af05c463e9f4507a6173eba02" target="_blank">
+		  							FR-36
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">在发起约钓时，需要发起人选择参与人范围、分享可见的范围</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">16</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a><br>------&gt;<br>客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=d2549d68213d4281baae44d6090bedeb" target="_blank">FR-18</a><br>------&gt;<br>客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=6fde4548f7e1406489afa6a221fb42d2" target="_blank">FR-29</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=9fb90984f0104ecfab8b1d38f3f9cc4e" target="_blank">
+		  							FR-37
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">邀请好友</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">17</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a><br>------&gt;<br>客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=d2549d68213d4281baae44d6090bedeb" target="_blank">FR-18</a><br>------&gt;<br>客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=6fde4548f7e1406489afa6a221fb42d2" target="_blank">FR-29</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=f9623a80c41845ce88638563b1058fb6" target="_blank">
+		  							FR-30
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">约钓活动需要五个状态</div></td>
+						</tr>			    	
+			    	
+			    	<tr>
+		  					<td width="55px" align="center">18</td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+				   						
+				   						
+				   						/http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">
+			   						FR-75
+			   					</a>
+		  					</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">用户等级</div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=2def07278d284667a255c981c009e3c8" target="_blank">FR-75</a><br>------&gt;<br>客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=d2549d68213d4281baae44d6090bedeb" target="_blank">FR-18</a><br>------&gt;<br>客户端需求(当前版本)&nbsp;&nbsp;<a href="http://localhost:80/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=6fde4548f7e1406489afa6a221fb42d2" target="_blank">FR-29</a></div></td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">客户端需求<br>(当前版本)</div></td>
+		  					<td width="60px" align="center">
+		  						<a href="http://localhost:80/
+			   						
+			   						
+			   						/loadItemInfoPage.action?editionUid=dfab2565818640a086e90023149cf8c5&amp;formatItemUid=ff052757e1cc4dde9f5c03b564b431af" target="_blank">
+		  							FR-31
+		  						</a>
+							</td>
+		  					<td width="340px" align="left"><div style="margin:8px 8px 8px 8px;">约钓活动支持多天多地</div></td>
+						</tr>			    	
+			    	
+			    
+		    </tbody></table>
+		    <BR>
+<!--  		    <div align="left" style="width:89%;font-weight: bold;">条目间直接影响</div>
+		    <table border="1" cellpadding="0" cellspacing="0">
+  			<tr align="center">
+	  			<td style="font-family: '黑体';">序号</td>
+	  			<td style="font-family: '黑体';">源文档/版本</td>
+	  			<td style="font-family: '黑体';">源条目标识</td>
+	  			<td style="font-family: '黑体';">源条目概要</td>
+	  			<td style="font-family: '黑体';">文档/版本</td>
+	  			<td style="font-family: '黑体';">条目标识</td>
+	  			<td style="font-family: '黑体';">条目标题</td>
+  			</tr>
+  			
+  		</table>-->
+	   		<BR></body></html>

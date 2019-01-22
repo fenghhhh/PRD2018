@@ -1,0 +1,2038 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec PRD2018-G06</title>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo" height="53" src="http://127.0.0.1:8000/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>测试用例</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>测试产品: PRD2018-G06</p></div>
+<div class="summary"><p id="printedby">由TestLink打印 2018-12-23</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">内容列表</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.渔乐生活APP</a></b></p>
+<p style="padding-left: 30px;"><b><a href="#toc_1_1">1.1.功能测试</a></b></p>
+<p style="padding-left: 40px;"><b><a href="#toc_1_1_1">1.1.1.首页</a></b></p>
+<p style="padding-left: 50px;"><b><a href="#toc_1_1_1_1">1.1.1.1.地图标点显示</a></b></p>
+<p style="padding-left: 90px;"><a href="#toc_tc33">渔乐生活G06-7: 钓点显示</a></p><p style="padding-left: 90px;"><a href="#toc_tc35">渔乐生活G06-8: 渔具店显示</a></p><p style="padding-left: 90px;"><a href="#toc_tc37">渔乐生活G06-9: 用户位置显示</a></p><p style="padding-left: 50px;"><b><a href="#toc_1_1_1_2">1.1.1.2.地图点显示简略信息</a></b></p>
+<p style="padding-left: 90px;"><a href="#toc_tc40">渔乐生活G06-10: 显示用户（渔友）简略信息</a></p><p style="padding-left: 90px;"><a href="#toc_tc42">渔乐生活G06-11: 显示渔具店简略信息</a></p><p style="padding-left: 90px;"><a href="#toc_tc44">渔乐生活G06-12: 显示钓点简略信息</a></p><p style="padding-left: 50px;"><b><a href="#toc_1_1_1_3">1.1.1.3.新增钓点页面</a></b></p>
+<p style="padding-left: 90px;"><a href="#toc_tc48">渔乐生活G06-13: 上传钓点照片</a></p><p style="padding-left: 90px;"><a href="#toc_tc52">渔乐生活G06-14: 新增钓点输入信息</a></p><p style="padding-left: 90px;"><a href="#toc_tc76">渔乐生活G06-18: 新增钓点成功后转跳到查看详情的页面</a></p><p style="padding-left: 90px;"><a href="#toc_tc78">渔乐生活G06-19: 新增钓点成功转跳</a></p><p style="padding-left: 50px;"><b><a href="#toc_1_1_1_4">1.1.1.4.新增渔具店页面</a></b></p>
+<p style="padding-left: 90px;"><a href="#toc_tc63">渔乐生活G06-15: 新增渔具店输入信息</a></p><p style="padding-left: 90px;"><a href="#toc_tc69">渔乐生活G06-16: 查看新增渔具店的详细信息</a></p><p style="padding-left: 90px;"><a href="#toc_tc73">渔乐生活G06-17: 新增后转跳到主页面</a></p><p style="padding-left: 50px;"><b><a href="#toc_1_1_1_5">1.1.1.5.渔具店详情</a></b></p>
+<p style="padding-left: 90px;"><a href="#toc_tc82">渔乐生活G06-20: 查看渔具店的钓友评价</a></p><p style="padding-left: 90px;"><a href="#toc_tc85">渔乐生活G06-21: 查看钓友简略信息</a></p><p style="padding-left: 90px;"><a href="#toc_tc88">渔乐生活G06-22: 编辑渔具店的评价</a></p><p style="padding-left: 90px;"><a href="#toc_tc91">渔乐生活G06-23: 点评渔具店</a></p><p style="padding-left: 90px;"><a href="#toc_tc99">渔乐生活G06-24: 编辑的时候退出</a></p><p style="padding-left: 50px;"><b><a href="#toc_1_1_1_6">1.1.1.6.约钓活动列表</a></b></p>
+<p style="padding-left: 90px;"><a href="#toc_tc103">渔乐生活G06-25: 浏览进行中的约钓</a></p><p style="padding-left: 90px;"><a href="#toc_tc106">渔乐生活G06-26: 展示约钓历史</a></p><p style="padding-left: 90px;"><a href="#toc_tc111">渔乐生活G06-27: 约钓免责条款</a></p><p style="padding-left: 50px;"><b><a href="#toc_1_1_1_7">1.1.1.7.约钓活动状态页面</a></b></p>
+<p style="padding-left: 90px;"><a href="#toc_tc115">渔乐生活G06-28: 发起约钓</a></p><p style="padding-left: 90px;"><a href="#toc_tc122">渔乐生活G06-29: 约钓详情</a></p><p style="padding-left: 90px;"><a href="#toc_tc127">渔乐生活G06-30: 约钓准备界面</a></p><p style="padding-left: 90px;"><a href="#toc_tc140">渔乐生活G06-32: 发表渔获</a></p><p style="padding-left: 50px;"><b><a href="#toc_1_1_1_8">1.1.1.8.钓友详情</a></b></p>
+<p style="padding-left: 90px;"><a href="#toc_tc133">渔乐生活G06-31: 钓友朋友圈</a></p><p style="padding-left: 50px;"><b><a href="#toc_1_1_1_9">1.1.1.9.钓点详情页面</a></b></p>
+<p style="padding-left: 90px;"><a href="#toc_tc144">渔乐生活G06-33: 钓点详情</a></p><p style="padding-left: 50px;"><b><a href="#toc_1_1_1_10">1.1.1.10.约钓4状态</a></b></p>
+<p style="padding-left: 60px;"><b><a href="#toc_1_1_1_10_1">1.1.1.10.1.约钓活动状态1</a></b></p>
+<p style="padding-left: 105px;"><a href="#toc_tc150">渔乐生活G06-34: 发起约钓-输入默认的参数</a></p><p style="padding-left: 105px;"><a href="#toc_tc156">渔乐生活G06-35: 发起约钓-输入所有的正常的数据</a></p><p style="padding-left: 60px;"><b><a href="#toc_1_1_1_10_2">1.1.1.10.2.约钓详情2</a></b></p>
+<p style="padding-left: 105px;"><a href="#toc_tc197">渔乐生活G06-40: 约钓详情-群聊入口</a></p><p style="padding-left: 105px;"><a href="#toc_tc199">渔乐生活G06-41: 约钓详情-私聊入口</a></p><p style="padding-left: 105px;"><a href="#toc_tc201">渔乐生活G06-42: 约钓详情-检查输入的信息</a></p><p style="padding-left: 105px;"><a href="#toc_tc208">渔乐生活G06-43: 约钓详情-邀请好友</a></p><p style="padding-left: 105px;"><a href="#toc_tc216">渔乐生活G06-44: 约钓详情-生成二维码</a></p><p style="padding-left: 60px;"><b><a href="#toc_1_1_1_10_3">1.1.1.10.3.约钓准备3</a></b></p>
+<p style="padding-left: 105px;"><a href="#toc_tc228">渔乐生活G06-46: 约钓准备-修改公告2</a></p><p style="padding-left: 105px;"><a href="#toc_tc223">渔乐生活G06-45: 约钓准备-修改公告</a></p><p style="padding-left: 105px;"><a href="#toc_tc235">渔乐生活G06-47: 约钓准备-浏览公告</a></p><p style="padding-left: 60px;"><b><a href="#toc_1_1_1_10_4">1.1.1.10.4.约钓经历4</a></b></p>
+<p style="padding-left: 105px;"><a href="#toc_tc239">渔乐生活G06-48: 约钓经历-浏览</a></p><p style="padding-left: 105px;"><a href="#toc_tc242">渔乐生活G06-49: 约钓经历-添加经历</a></p><p style="padding-left: 50px;"><b><a href="#toc_1_1_1_11">1.1.1.11.渔获编辑</a></b></p>
+<p style="padding-left: 90px;"><a href="#toc_tc302">渔乐生活G06-64: 20181223-09:23:59 渔获编辑-导入多媒体7</a></p><p style="padding-left: 90px;"><a href="#toc_tc297">渔乐生活G06-63: 渔获编辑-导入多媒体7</a></p><p style="padding-left: 90px;"><a href="#toc_tc294">渔乐生活G06-62:  渔获编辑-发布4</a></p><p style="padding-left: 90px;"><a href="#toc_tc291">渔乐生活G06-61: 渔获编辑-发布3</a></p><p style="padding-left: 90px;"><a href="#toc_tc288">渔乐生活G06-60: 渔获编辑-发布2</a></p><p style="padding-left: 90px;"><a href="#toc_tc285">渔乐生活G06-59: 渔获编辑-发布</a></p><p style="padding-left: 90px;"><a href="#toc_tc281">渔乐生活G06-58: 渔获编辑-编辑文字2</a></p><p style="padding-left: 90px;"><a href="#toc_tc274">渔乐生活G06-57: 渔获编辑-导入多媒体6</a></p><p style="padding-left: 90px;"><a href="#toc_tc269">渔乐生活G06-56: 渔获编辑-导入多媒体5</a></p><p style="padding-left: 90px;"><a href="#toc_tc264">渔乐生活G06-55: 渔获编辑-导入多媒体4</a></p><p style="padding-left: 90px;"><a href="#toc_tc259">渔乐生活G06-54: 渔获编辑-导入多媒体3</a></p><p style="padding-left: 90px;"><a href="#toc_tc254">渔乐生活G06-53: 渔获编辑-导入多媒体2</a></p><p style="padding-left: 90px;"><a href="#toc_tc246">渔乐生活G06-50: 渔获编辑-导入多媒体</a></p><p style="padding-left: 90px;"><a href="#toc_tc248">渔乐生活G06-51: 渔获编辑-编辑文字</a></p><p style="padding-left: 90px;"><a href="#toc_tc250">渔乐生活G06-52: 渔获编辑-checkbox勾选</a></p><p style="padding-left: 50px;"><b><a href="#toc_1_1_1_12">1.1.1.12.搜索地点</a></b></p>
+<p style="padding-left: 90px;"><a href="#toc_tc405">渔乐生活G06-89: 搜索钓点</a></p><p style="padding-left: 75px;"><a href="#toc_tc13">渔乐生活G06-3: 打开新增钓点页面</a></p><p style="padding-left: 75px;"><a href="#toc_tc15">渔乐生活G06-4: 打开新增渔具店页面</a></p><p style="padding-left: 75px;"><a href="#toc_tc17">渔乐生活G06-5: 打开发起约钓界面</a></p><p style="padding-left: 75px;"><a href="#toc_tc28">渔乐生活G06-6: 打开发表渔获</a></p><p style="padding-left: 40px;"><b><a href="#toc_1_1_2">1.1.2.聊天中心</a></b></p>
+<p style="padding-left: 50px;"><b><a href="#toc_1_1_2_1">1.1.2.1.单独聊天</a></b></p>
+<p style="padding-left: 60px;"><b><a href="#toc_1_1_2_1_1">1.1.2.1.1.文本输入</a></b></p>
+<p style="padding-left: 105px;"><a href="#toc_tc330">渔乐生活G06-71: 单独聊天-输入文本5</a></p><p style="padding-left: 105px;"><a href="#toc_tc327">渔乐生活G06-70: 单独聊天-输入文本4</a></p><p style="padding-left: 105px;"><a href="#toc_tc324">渔乐生活G06-69: 单独聊天-输入文本3</a></p><p style="padding-left: 105px;"><a href="#toc_tc321">渔乐生活G06-68: 单独聊天-输入文本2</a></p><p style="padding-left: 105px;"><a href="#toc_tc318">渔乐生活G06-67: 单独聊天-输入文本</a></p><p style="padding-left: 60px;"><b><a href="#toc_1_1_2_1_2">1.1.2.1.2.表情输入</a></b></p>
+<p style="padding-left: 60px;"><b><a href="#toc_1_1_2_1_3">1.1.2.1.3.多媒体发送</a></b></p>
+<p style="padding-left: 60px;"><b><a href="#toc_1_1_2_1_4">1.1.2.1.4.语音通话</a></b></p>
+<p style="padding-left: 50px;"><b><a href="#toc_1_1_2_2">1.1.2.2.群聊</a></b></p>
+<p style="padding-left: 40px;"><b><a href="#toc_1_1_3">1.1.3.个人中心</a></b></p>
+<p style="padding-left: 40px;"><b><a href="#toc_1_1_4">1.1.4.随便逛逛</a></b></p>
+<p style="padding-left: 50px;"><b><a href="#toc_1_1_4_1">1.1.4.1.附近渔友列表排序</a></b></p>
+<p style="padding-left: 90px;"><a href="#toc_tc312">渔乐生活G06-66: 附近渔友-热度排序</a></p><p style="padding-left: 90px;"><a href="#toc_tc308">渔乐生活G06-65: 附近渔友-时间排序</a></p><p style="padding-left: 40px;"><b><a href="#toc_1_1_5">1.1.5.封面</a></b></p>
+<p style="padding-left: 50px;"><b><a href="#toc_1_1_5_1">1.1.5.1.注册</a></b></p>
+<p style="padding-left: 90px;"><a href="#toc_tc475">渔乐生活G06-110: 注册账号3</a></p><p style="padding-left: 90px;"><a href="#toc_tc472">渔乐生活G06-109: 注册账号2</a></p><p style="padding-left: 90px;"><a href="#toc_tc466">渔乐生活G06-107: 获取验证码11</a></p><p style="padding-left: 90px;"><a href="#toc_tc463">渔乐生活G06-106: 获取验证码10</a></p><p style="padding-left: 90px;"><a href="#toc_tc460">渔乐生活G06-105: 获取验证码9</a></p><p style="padding-left: 90px;"><a href="#toc_tc457">渔乐生活G06-104: 获取验证码8</a></p><p style="padding-left: 90px;"><a href="#toc_tc454">渔乐生活G06-103: 获取验证码7</a></p><p style="padding-left: 90px;"><a href="#toc_tc451">渔乐生活G06-102: 获取验证码6</a></p><p style="padding-left: 90px;"><a href="#toc_tc448">渔乐生活G06-101: 获取验证码5</a></p><p style="padding-left: 90px;"><a href="#toc_tc444">渔乐生活G06-100: 获取验证码4</a></p><p style="padding-left: 90px;"><a href="#toc_tc441">渔乐生活G06-99: 获取验证码3</a></p><p style="padding-left: 90px;"><a href="#toc_tc438">渔乐生活G06-98: 获取验证码2</a></p><p style="padding-left: 90px;"><a href="#toc_tc431">渔乐生活G06-96: 地区选择2</a></p><p style="padding-left: 90px;"><a href="#toc_tc428">渔乐生活G06-95: 地区选择</a></p><p style="padding-left: 90px;"><a href="#toc_tc435">渔乐生活G06-97: 获取验证码</a></p><p style="padding-left: 90px;"><a href="#toc_tc469">渔乐生活G06-108: 注册账号</a></p><p style="padding-left: 50px;"><b><a href="#toc_1_1_5_2">1.1.5.2.登陆</a></b></p>
+<p style="padding-left: 90px;"><a href="#toc_tc424">渔乐生活G06-94: 手机号输入5</a></p><p style="padding-left: 90px;"><a href="#toc_tc421">渔乐生活G06-93: 手机号输入4</a></p><p style="padding-left: 90px;"><a href="#toc_tc418">渔乐生活G06-92: 手机号输入3</a></p><p style="padding-left: 90px;"><a href="#toc_tc415">渔乐生活G06-91: 手机号输入2</a></p><p style="padding-left: 90px;"><a href="#toc_tc412">渔乐生活G06-90: 手机号输入</a></p><p style="padding-left: 75px;"><a href="#toc_tc479">渔乐生活G06-111: 登陆转注册</a></p><p style="padding-left: 30px;"><b><a href="#toc_1_2">1.2.适配性</a></b></p>
+<p style="padding-left: 60px;"><a href="#toc_tc370">渔乐生活G06-80: 中断测试4</a></p><p style="padding-left: 60px;"><a href="#toc_tc364">渔乐生活G06-79: 中断测试3</a></p><p style="padding-left: 40px;"><b><a href="#toc_1_2_1">1.2.1.机型适配1</a></b></p>
+<p style="padding-left: 75px;"><a href="#toc_tc377">渔乐生活G06-81: 分辨率适配</a></p><p style="padding-left: 75px;"><a href="#toc_tc398">渔乐生活G06-87: OS版本适配</a></p><p style="padding-left: 75px;"><a href="#toc_tc401">渔乐生活G06-88: CPU硬件配置</a></p><p style="padding-left: 60px;"><a href="#toc_tc358">渔乐生活G06-78: 中断测试2</a></p><p style="padding-left: 40px;"><b><a href="#toc_1_2_2">1.2.2.升级 覆盖安装</a></b></p>
+<p style="padding-left: 75px;"><a href="#toc_tc389">渔乐生活G06-85: 用户数据保留4</a></p><p style="padding-left: 75px;"><a href="#toc_tc386">渔乐生活G06-84: 用户数据保留3</a></p><p style="padding-left: 75px;"><a href="#toc_tc383">渔乐生活G06-83: 用户数据保留2</a></p><p style="padding-left: 75px;"><a href="#toc_tc380">渔乐生活G06-82: 用户数据保留</a></p><p style="padding-left: 75px;"><a href="#toc_tc393">渔乐生活G06-86: 升级提示</a></p><p style="padding-left: 60px;"><a href="#toc_tc338">渔乐生活G06-72: 应用安装</a></p><p style="padding-left: 60px;"><a href="#toc_tc341">渔乐生活G06-73: 应用启动</a></p><p style="padding-left: 60px;"><a href="#toc_tc344">渔乐生活G06-74: 程序异常退出后的启动</a></p><p style="padding-left: 60px;"><a href="#toc_tc347">渔乐生活G06-75: 网络缓慢</a></p><p style="padding-left: 60px;"><a href="#toc_tc350">渔乐生活G06-76: 网络中断</a></p><p style="padding-left: 60px;"><a href="#toc_tc354">渔乐生活G06-77: 中断测试</a></p></div><h1 class="doclevel" >范围</h1>
+<div class="txtlevel"><p>yc Project</p></div>
+ <br/><a name='toc_1'></a>
+<h1 class='doclevel'>1.测试用例集 : 渔乐生活APP</h1>
+<a name='toc_1_1'></a>
+<h2 class='doclevel'>1.1.测试用例集 : 功能测试</h2>
+<a name='toc_1_1_1'></a>
+<h3 class='doclevel'>1.1.1.测试用例集 : 首页</h3>
+<a name='toc_1_1_1_1'></a>
+<h4 class='doclevel'>1.1.1.1.测试用例集 : 地图标点显示</h4>
+<div><p>设置地图上的不同类的点的显示与否</p>
+</div><a name="toc_tc33"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-7: 钓点显示&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>设置地图上的&nbsp;</p>
+
+<p>钓点</p>
+
+<p>的显示 与否</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户打开APP</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc35"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-8: 渔具店显示&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>设置地图上的&nbsp;</p>
+
+<p>渔具店</p>
+
+<p>的显示 与否</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户打开APP</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc37"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-9: 用户位置显示&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>设置地图上的&nbsp;</p>
+
+<p>用户头像</p>
+
+<p>的显示 与否</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户打开APP</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_1_2'></a>
+<h4 class='doclevel'>1.1.1.2.测试用例集 : 地图点显示简略信息</h4>
+<div><p>点击地图点，显示该点上的信息</p>
+</div><a name="toc_tc40"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-10: 显示用户（渔友）简略信息&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>小弹窗显示用户的简略信息</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户打开APP</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc42"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-11: 显示渔具店简略信息&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>小弹窗显示</p>
+
+<p>渔具店</p>
+
+<p>的简略信息</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户打开APP</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc44"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-12: 显示钓点简略信息&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>小弹窗显示</p>
+
+<p>钓点</p>
+
+<p>的简略信息</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户打开APP</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_1_3'></a>
+<h4 class='doclevel'>1.1.1.3.测试用例集 : 新增钓点页面</h4>
+<a name="toc_tc48"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-13: 上传钓点照片&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>能否上传照片并显示</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户登陆</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击上传照片按钮</p>
+</td><td><p>弹出系统控件 选择照片</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc52"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-14: 新增钓点输入信息&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>输入钓点的信息</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户登陆</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击钓鱼费用</p>
+
+<p>输入</p>
+
+<p>20</p>
+</td><td><p>钓鱼费用显示20元/天</p>
+</td></tr><tr><td width="5">2</td><td><p>点击夜钓</p>
+</td><td><p>夜钓</p>
+
+<p>从灰叉叉变成绿勾勾</p>
+</td></tr><tr><td width="5">3</td><td><p>点击停车</p>
+</td><td><p>停车</p>
+
+<p>从灰色叉叉变成绿勾勾</p>
+</td></tr><tr><td width="5">4</td><td><p>点击</p>
+
+<p>WIFI</p>
+</td><td><p>WIFI</p>
+
+<p>从灰色叉叉变成绿勾勾</p>
+</td></tr><tr><td width="5">5</td><td><p>点击</p>
+
+<p>住宿</p>
+</td><td><p>住宿</p>
+
+<p>从灰色叉叉变成绿勾勾</p>
+</td></tr><tr><td width="5">6</td><td><p>点击</p>
+
+<p>餐饮</p>
+</td><td><p>餐饮</p>
+
+<p>从灰色叉叉变成绿勾勾</p>
+</td></tr><tr><td width="5">7</td><td><p>移动下方的地图重新定位</p>
+</td><td><p>地图上方的地址会改变</p>
+</td></tr><tr><td width="5">8</td><td><p>点击</p>
+
+<p>提交</p>
+
+<p>按钮</p>
+</td><td><p>转跳到</p>
+
+<p>钓点提交成功页面</p>
+
+<p>然后再自动转跳到</p>
+
+<p>查看提交详情的页面</p>
+
+<p>页面中的</p>
+
+<p>夜钓 绿勾勾</p>
+
+<p>停车 绿勾勾</p>
+
+<p>WIFI 绿勾勾</p>
+
+<p>住宿 绿勾勾</p>
+
+<p>餐饮 绿勾勾</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc76"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-18: 新增钓点成功后转跳到查看详情的页面&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>新增钓点转跳</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>成功的增加了一个钓点</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc78"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-19: 新增钓点成功转跳&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>新增钓点成功转跳到主页面</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击</p>
+
+<p>返回主页面</p>
+</td><td><p>转跳到主页面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_1_4'></a>
+<h4 class='doclevel'>1.1.1.4.测试用例集 : 新增渔具店页面</h4>
+<a name="toc_tc63"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-15: 新增渔具店输入信息&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>增加一个渔具店</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户登陆</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击上传图片</p>
+</td><td><p>弹出系统系统相册</p>
+
+<p>选择图片</p>
+</td></tr><tr><td width="5">2</td><td><p>点击店铺名称</p>
+
+<p>输入&rdquo;天天爱钓鱼&ldquo;</p>
+</td><td><p>店铺名称变成&rdquo;天天爱钓鱼&ldquo;</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">3</td><td><p>点击联系电话</p>
+
+<p>输入&rdquo;1311334019&ldquo;</p>
+</td><td><p>联系电话变成&rdquo;1311334019&ldquo;</p>
+</td></tr><tr><td width="5">4</td><td><p>点击</p>
+
+<p>提交</p>
+
+<p>按钮</p>
+</td><td><p>转跳到</p>
+
+<p>新增渔具店成功页面</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc69"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-16: 查看新增渔具店的详细信息&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>浏览刚刚增加的渔具店的信息</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户刚刚成功添加了一个渔具店</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击</p>
+
+<p>查看详情</p>
+</td><td><p>转跳到</p>
+
+<p>查看提交详情页面</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc73"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-17: 新增后转跳到主页面&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>从新增渔具店转跳到主页面</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>成功创建了一个渔具店</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击返回主页面</p>
+</td><td><p>转跳到有地图的主页面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_1_5'></a>
+<h4 class='doclevel'>1.1.1.5.测试用例集 : 渔具店详情</h4>
+<a name="toc_tc82"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-20: 查看渔具店的钓友评价&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>可以看到这个渔具店的钓友的评价</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>下拉钓友评价的滑动窗口</p>
+</td><td><p>可以看到许多的评价</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc85"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-21: 查看钓友简略信息&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>在渔具店评价中</p>
+
+<p>查看已经评论的钓友的简略信息</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户打开APP</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击钓友评价滑动窗口中的任意</p>
+
+<p>一个钓友的头像</p>
+</td><td><p>弹出钓友简略信息的窗口</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc88"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-22: 编辑渔具店的评价&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>用户评价一个渔具店</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户已经登陆</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击页面右上角的编辑按钮</p>
+</td><td><p>弹出点评渔具店的页面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc91"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-23: 点评渔具店&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>用户点评一个渔具店</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击店铺评分的五角星</p>
+</td><td><p>点击的五角星的 右边的五角星都变灰色 左边的五角星还是黄色</p>
+</td></tr><tr><td width="5">2</td><td><p>点击 价格优惠</p>
+</td><td><p>价格优惠按钮</p>
+
+<p>变成绿地白字</p>
+</td></tr><tr><td width="5">3</td><td><p>点击&nbsp;</p>
+
+<p>第一个输入框（请输入您对该店铺的真实评价）</p>
+
+<p>输入&ldquo;这个店超级棒的，我超级再想来一次的！&rdquo;</p>
+</td><td><p>输入框中显示相应的字符</p>
+</td></tr><tr><td width="5">4</td><td><p>点击 上传照片</p>
+</td><td><p>跳出系统的</p>
+
+<p>照片选择控件</p>
+</td></tr><tr><td width="5">5</td><td><p>点击提交评价 按钮</p>
+</td><td><p>成功转跳到</p>
+
+<p>提交成功页面</p>
+</td></tr><tr><td width="5">6</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc99"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-24: 编辑的时候退出&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击左上角的退出按钮</p>
+</td><td><p>跳出</p>
+
+<p>确认退出</p>
+
+<p>的弹窗</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_1_6'></a>
+<h4 class='doclevel'>1.1.1.6.测试用例集 : 约钓活动列表</h4>
+<a name="toc_tc103"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-25: 浏览进行中的约钓&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击</p>
+
+<p>约钓进行中</p>
+</td><td><p>展示这个钓点正在进行的约钓</p>
+</td></tr><tr><td width="5">2</td><td><p>下拉滑动窗口</p>
+</td><td><p>用户加入过的活动显示JOINED标签</p>
+</td></tr><tr><td width="5">3</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc106"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-26: 展示约钓历史&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击 约钓历史</p>
+</td><td><p>显示这个钓点</p>
+
+<p>上的 已经进行过的 约钓</p>
+
+<p>活动</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc111"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-27: 约钓免责条款&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击&ldquo;我同意以上所有免责条款&rdquo;</p>
+</td><td><p>&ldquo;现在发起约钓&rdquo;变绿或者可以点击</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_1_7'></a>
+<h4 class='doclevel'>1.1.1.7.测试用例集 : 约钓活动状态页面</h4>
+<div><p>发起约钓鱼</p>
+
+<p>邀请钓友</p>
+
+<p>约钓准备</p>
+
+<p>约钓经历</p>
+</div><a name="toc_tc115"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-28: 发起约钓&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击活动名称</p>
+
+<p>输入&ldquo;陈家河3日钓鱼游&rdquo;</p>
+</td><td><p>显示输入的字符</p>
+</td></tr><tr><td width="5">2</td><td><p>点击&ldquo;活动持续时间&rdquo;</p>
+
+<p>选择3</p>
+</td><td><p>跳出滚动的数字选择界面</p>
+
+<p>然后支持活动时间变成3</p>
+</td></tr><tr><td width="5">3</td><td><p>点击钓前准备时间</p>
+</td><td><p>跳出时间选择器</p>
+</td></tr><tr><td width="5">4</td><td><p>点击页面下方的加号</p>
+</td><td><p>跳出地图控件选择地点</p>
+</td></tr><tr><td width="5">5</td><td><p>点击&ldquo;确定&rdquo;</p>
+</td><td><p>转跳到活动状态2（约钓详情）</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc122"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-29: 约钓详情&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击邀请好友加入&nbsp;</p>
+
+<p>或</p>
+
+<p>右上角的分享按钮</p>
+</td><td><p>弹出分享链接的面板，可以分享到QQ 微信啥的</p>
+</td></tr><tr><td width="5">2</td><td><p>点击进群聊聊</p>
+</td><td><p>转入这钓点的群聊</p>
+</td></tr><tr><td width="5">3</td><td><p>点击</p>
+
+<p>和他聊聊</p>
+
+<p>&nbsp;</p>
+</td><td><p>转跳到和这个人聊天界面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc127"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-30: 约钓准备界面&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击编辑</p>
+</td><td><p>开始编辑&ldquo;发起人活动准备公告&rdquo;</p>
+</td></tr><tr><td width="5">2</td><td><p>点击进群聊聊</p>
+</td><td><p>进入这个约钓的群</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc140"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-32: 发表渔获&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>用户在活动结束之后，上传渔获分享</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击</p>
+
+<p>上传照片</p>
+</td><td><p>弹出系统控件选择相册</p>
+</td></tr><tr><td width="5">2</td><td><p>点击发表文字下面的文本框</p>
+</td><td><p>弹出键盘用户输入</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_1_8'></a>
+<h4 class='doclevel'>1.1.1.8.测试用例集 : 钓友详情</h4>
+<div><p>这个钓友的朋友圈</p>
+</div><a name="toc_tc133"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-31: 钓友朋友圈&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击</p>
+
+<p>关注</p>
+</td><td><p>弹出该人的关注列表</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">2</td><td><p>点击 粉丝</p>
+</td><td><p>弹出关注该人的列表</p>
+</td></tr><tr><td width="5">3</td><td><p>下拉窗口</p>
+</td><td><p>显示这个人的动态列表</p>
+</td></tr><tr><td width="5">4</td><td><p>随机选择一个动态的评论</p>
+</td><td><p>弹出键盘开始评论</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_1_9'></a>
+<h4 class='doclevel'>1.1.1.9.测试用例集 : 钓点详情页面</h4>
+<a name="toc_tc144"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-33: 钓点详情&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击右上角的编辑按钮</p>
+</td><td><p>进入钓点评价界面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_1_10'></a>
+<h4 class='doclevel'>1.1.1.10.测试用例集 : 约钓4状态</h4>
+<div><p>用户发起约钓的流程</p>
+</div><a name='toc_1_1_1_10_1'></a>
+<h5 class='doclevel'>1.1.1.10.1.测试用例集 : 约钓活动状态1</h5>
+<div><p>约钓活动状态一</p>
+
+<p>约钓前的准备</p>
+
+<p>就是要让用户输入一些信息</p>
+</div><a name="toc_tc150"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-34: 发起约钓-输入默认的参数&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>按照程序给出的默认参数作为输入</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户登陆</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击 发起约钓</p>
+</td><td><p>跳出免责声明</p>
+</td></tr><tr><td width="5">2</td><td><p>点击免责声明中的同意</p>
+</td><td><p>跳出 输入 约钓信息的 界面</p>
+</td></tr><tr><td width="5">3</td><td><p>点击活动名称</p>
+
+<p>输入&ldquo;青岛湖3日游&rdquo;</p>
+
+<p>点击确定</p>
+</td><td><p>转跳到约钓详情页面</p>
+</td></tr><tr><td width="5">4</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc156"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-35: 发起约钓-输入所有的正常的数据&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>不按照程序给出的默认参数作为输入</p>
+
+<p>把默认的都改成其他的正常参数</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户登陆</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击 发起约钓</p>
+</td><td><p>跳出免责声明</p>
+</td></tr><tr><td width="5">2</td><td><p>点击免责声明中的同意</p>
+</td><td><p>跳出 输入 约钓信息的 界面</p>
+</td></tr><tr><td width="5">3</td><td><p>点击活动名称</p>
+
+<p>输入&ldquo;青岛湖3日游&rdquo;</p>
+
+<p>点击活动持续时间</p>
+
+<p>点击4天</p>
+
+<p>点击钓法</p>
+
+<p>点击海钓</p>
+
+<p>点击限制人数：</p>
+
+<p>上下滑动数字选择器，选择11人</p>
+
+<p>点击仅好友可参与</p>
+
+<p>点击预估人均费用</p>
+
+<p>选择100</p>
+
+<p>点击交通方式</p>
+
+<p>选择混合出行</p>
+
+<p>点击截至加入时间</p>
+
+<p>选择2</p>
+
+<p>&nbsp;</p>
+</td><td><p>约钓前准备的时间 自动修正到</p>
+
+<p>当前时间的2天后的时间</p>
+</td></tr><tr><td width="5">4</td><td><p>点击钓前准备</p>
+
+<p>在弹出的日期选择器中选择比今天早的时间</p>
+</td><td><p>弹出错误，让用户重新选择</p>
+</td></tr><tr><td width="5">5</td><td><p>点击钓前准备时间</p>
+
+<p>在弹出的日期选择器中选择比今天晚的时间</p>
+</td><td><p>钓鱼开始时间自动变成 比钓前准备时间多一天的 日期</p>
+</td></tr><tr><td width="5">6</td><td><p>点击钓鱼开始时间</p>
+
+<p>在弹出的日期选择器中选择比今天早的时间</p>
+</td><td><p>弹出错误，让用户重新选择</p>
+</td></tr><tr><td width="5">7</td><td><p>点击钓鱼开始时间</p>
+
+<p>在弹出的日期选择器中选择比今天晚的时间 但是比钓前准备时间要早的时间</p>
+</td><td><p>弹出错误，让用户重新选择</p>
+</td></tr><tr><td width="5">8</td><td><p>点击钓鱼开始时间</p>
+
+<p>在弹出的日期选择器中选择比钓前准备时间要晚的时间</p>
+</td><td><p>时间设置成功</p>
+</td></tr><tr><td width="5">9</td><td><p>点击约钓地点下面的加号 添加额外的钓点</p>
+</td><td><p>弹出地图控件</p>
+</td></tr><tr><td width="5">10</td><td><p>在地图控件上选择和本次钓点相近的地理位置</p>
+
+<p>点击添加</p>
+</td><td><p>弹出错误，让用户选择两个位置不一样的点</p>
+</td></tr><tr><td width="5">11</td><td><p>在地图控件上选择点</p>
+</td><td><p>退出地图控件，返回约钓详情中。</p>
+
+<p>在原本的约钓地点中多了一条记录</p>
+</td></tr><tr><td width="5">12</td><td><p>点击确定</p>
+</td><td><p>弹出约钓详情页面</p>
+</td></tr><tr><td width="5">13</td><td></td><td></td></tr><tr><td width="5">14</td><td><p>点击活动名称</p>
+
+<p>输入&ldquo;青岛湖3日游&rdquo;</p>
+
+<p>点击活动持续时间</p>
+
+<p>点击4天</p>
+
+<p>点击钓法</p>
+
+<p>点击海钓</p>
+
+<p>点击限制人数：</p>
+
+<p>上下滑动数字选择器，选择11人</p>
+
+<p>点击仅好友可参与</p>
+
+<p>点击预估人均费用</p>
+
+<p>选择100</p>
+
+<p>点击交通方式</p>
+
+<p>选择混合出行</p>
+
+<p>点击截至加入时间</p>
+
+<p>选择2</p>
+
+<p>&nbsp;</p>
+</td><td><p>约钓前准备的时间 自动修正到</p>
+
+<p>当前时间的2天后的时间</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_1_10_2'></a>
+<h5 class='doclevel'>1.1.1.10.2.测试用例集 : 约钓详情2</h5>
+<div><p>用户创建完约钓之后的页面</p>
+
+<p>向想加入这个约钓的人介绍这个 约钓 的信息</p>
+
+<p>提供 群聊入口 和 各个成员之间的私聊 入口</p>
+</div><a name="toc_tc197"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-40: 约钓详情-群聊入口&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>让用户从详情页面进入群聊界面</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户创建了这个约钓</p>
+
+<p>或者是</p>
+
+<p>对这个约钓感兴趣的用户</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击进群聊聊</p>
+</td><td><p>跳出属于这个约钓的群聊</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc199"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-41: 约钓详情-私聊入口&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>让用户从详情页面进入&nbsp; 可以和已经加入这个约钓 的人聊天</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户创建了这个约钓</p>
+
+<p>或者是</p>
+
+<p>对这个约钓感兴趣的用户</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>滑动用户列表</p>
+
+<p>随机选择一个用户，点击用户头像</p>
+</td><td><p>跳出这个用户的个人主页</p>
+</td></tr><tr><td width="5">2</td><td><p>随机选择一个用户，点击&ldquo;和他聊聊&rdquo;</p>
+</td><td><p>跳出和这个用户的临时对话页面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc201"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-42: 约钓详情-检查输入的信息&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>创建钓点用户检查 展示的信息是不是刚才输入的信息</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户刚刚成功的创建了一个约钓</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>浏览页面中间的文本框上的内容</p>
+</td><td><p>上面显示的时间和其他的信息和刚刚输入的信息相同</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc208"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-43: 约钓详情-邀请好友&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>用户把这个 约钓信息 发送给别人</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户已经登陆</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击 绿色的 邀请好友加入的按钮</p>
+</td><td><p>界面下方弹出面板</p>
+</td></tr><tr><td width="5">2</td><td><p>滑动面板上部的用户头像</p>
+</td><td><p>里面的用户都是这个 用户的好友列表中的人</p>
+</td></tr><tr><td width="5">3</td><td><p>滑动面板下部分的 选项</p>
+</td><td><p>是一些社交工具</p>
+</td></tr><tr><td width="5">4</td><td><p>点击上半部分中的随机一个用户头像</p>
+</td><td><p>跳出提示</p>
+
+<p>成功发送邀请给xxx用户</p>
+</td></tr><tr><td width="5">5</td><td><p>点击下半部分中的微信</p>
+</td><td><p>跳出提示</p>
+
+<p>邀请链接成功复制到剪贴板</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc216"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-44: 约钓详情-生成二维码&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>把生成的链接用二维码表示</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户登陆，并在浏览一个 约钓的 信息</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击右上角的 分享按钮</p>
+
+<p>&nbsp;</p>
+</td><td><p>弹出面板</p>
+</td></tr><tr><td width="5">2</td><td><p>点击保存二维码</p>
+</td><td><p>弹出 带有二维码的页面</p>
+</td></tr><tr><td width="5">3</td><td><p>长按页面</p>
+</td><td><p>弹出保存图片选项</p>
+</td></tr><tr><td width="5">4</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_1_10_3'></a>
+<h5 class='doclevel'>1.1.1.10.3.测试用例集 : 约钓准备3</h5>
+<div><p>人员集结完成之后，就可以开始群内讨论</p>
+
+<p>要分成 发起人 和 参与人</p>
+</div><a name="toc_tc228"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-46: 约钓准备-修改公告2&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td width="20%" valign="top"><span class="label">最后编辑人:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>发起人修改公告</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户是发起人</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击页面 下方的 编辑按钮</p>
+</td><td><p>中间的公告预览页 变成编辑区</p>
+</td></tr><tr><td width="5">2</td><td><p>编辑文本</p>
+
+<p>然后关闭虚拟键盘</p>
+</td><td><p>弹窗询问是否修改</p>
+</td></tr><tr><td width="5">3</td><td><p>选择是</p>
+</td><td><p>公告区中的文本变成刚刚编辑的样子</p>
+
+<p>显示提示信息，活动准备公告已经发出</p>
+</td></tr><tr><td width="5">4</td><td><p>点击进群聊聊</p>
+</td><td><p>弹出群聊界面</p>
+
+<p>群聊中会有一条自动发送的@所有人的消息</p>
+
+<p>消息内容就是公告中的内容</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc223"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-45: 约钓准备-修改公告&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>发起人修改公告</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户是发起人</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击页面 下方的 编辑按钮</p>
+</td><td><p>中间的公告预览页 变成编辑区</p>
+</td></tr><tr><td width="5">2</td><td><p>编辑文本</p>
+
+<p>然后关闭虚拟键盘</p>
+</td><td><p>弹窗询问是否修改</p>
+</td></tr><tr><td width="5">3</td><td><p>选择否</p>
+</td><td><p>公告区中的文本不变</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc235"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-47: 约钓准备-浏览公告&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>参与者可以看到的</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户已经加入了约钓</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点开他参与的约钓，选择要看的约钓，并且这个约钓的状态是在准备中的</p>
+</td><td><p>显示出公告内容，和一个进群聊聊的按钮</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_1_10_4'></a>
+<h5 class='doclevel'>1.1.1.10.4.测试用例集 : 约钓经历4</h5>
+<div><p>类似用户的朋友圈</p>
+</div><a name="toc_tc239"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-48: 约钓经历-浏览&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>能否看到参加这个活动的所有人发出的分享</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户参加了这个约钓</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>上下滑动窗口</p>
+</td><td><p>浏览信息</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc242"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-49: 约钓经历-添加经历&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>钓友分享钓鱼过程中经历</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户加入了这个约钓，并且钓鱼活动开始了</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击右上角的编辑按钮</p>
+</td><td><p>弹出添加经历（发表渔获）的页面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_1_11'></a>
+<h4 class='doclevel'>1.1.1.11.测试用例集 : 渔获编辑</h4>
+<div><p>就是发发朋友圈啥的</p>
+</div><a name="toc_tc302"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-64: 20181223-09:23:59 渔获编辑-导入多媒体7&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击上传照片</p>
+</td><td><p>弹出面板</p>
+
+<p>让你选择要用哪种方式导入照片</p>
+</td></tr><tr><td width="5">2</td><td><p>点击从手机相册选择</p>
+</td><td><p>弹出相册</p>
+</td></tr><tr><td width="5">3</td><td><p>一个时长 3分钟 以上 的视频</p>
+
+<p>点击完成</p>
+</td><td><p>弹出视频长度过长</p>
+
+<p>上传失败</p>
+
+<p>继续停留在照片选择界面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc297"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-63: 渔获编辑-导入多媒体7&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击上传照片</p>
+</td><td><p>弹出面板</p>
+
+<p>让你选择要用哪种方式导入照片</p>
+</td></tr><tr><td width="5">2</td><td><p>点击从手机相册选择</p>
+</td><td><p>弹出相册</p>
+</td></tr><tr><td width="5">3</td><td><p>一个时长 为 0 到 3分钟 的视频</p>
+
+<p>点击完成</p>
+</td><td><p>返回约钓编辑 界面</p>
+
+<p>界面上显示 刚刚选择的视频的第一帧</p>
+
+<p>不能继续选择更多的照片</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc294"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-62:  渔获编辑-发布4&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>什么都不输入</p>
+
+<p>点击发布</p>
+</td><td><p>提示内容 内容不足</p>
+
+<p>然后返回首页</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc291"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-61: 渔获编辑-发布3&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>只进行了渔获编辑-编辑文字 之后</p>
+
+<p>点击发布</p>
+</td><td><p>显示发布成功</p>
+
+<p>然后返回首页</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc288"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-60: 渔获编辑-发布2&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>只进行了渔获编辑-导入多媒体 之后</p>
+
+<p>点击发布</p>
+</td><td><p>显示发布成功</p>
+
+<p>然后返回首页</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc285"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-59: 渔获编辑-发布&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>进行了渔获编辑-导入多媒体和渔获编辑-编辑文字 之后</p>
+
+<p>点击发布</p>
+</td><td><p>显示发布成功</p>
+
+<p>然后返回首页</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc281"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-58: 渔获编辑-编辑文字2&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击发表文字下面的编辑框</p>
+
+<p>输入101个文字</p>
+</td><td><p>显示出100个 前面的文字</p>
+
+<p>并且不能继续输入</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc274"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-57: 渔获编辑-导入多媒体6&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击上传照片</p>
+</td><td><p>弹出面板</p>
+
+<p>让你选择要用哪种方式导入照片</p>
+</td></tr><tr><td width="5">2</td><td><p>点击从手机相册选择</p>
+</td><td><p>弹出相册</p>
+</td></tr><tr><td width="5">3</td><td><p>选择9张照片</p>
+
+<p>点击完成</p>
+</td><td><p>返回约钓编辑 界面</p>
+
+<p>界面上显示 刚刚选择的照片</p>
+
+<p>不能继续选择更多的照片</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc269"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-56: 渔获编辑-导入多媒体5&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击上传照片</p>
+</td><td><p>弹出面板</p>
+
+<p>让你选择要用哪种方式导入照片</p>
+</td></tr><tr><td width="5">2</td><td><p>点击从手机相册选择</p>
+</td><td><p>弹出相册</p>
+</td></tr><tr><td width="5">3</td><td><p>选择4张照片</p>
+
+<p>点击完成</p>
+</td><td><p>返回约钓编辑 界面</p>
+
+<p>界面上显示 刚刚选择的照片</p>
+
+<p>并且可以继续选择更多的照片</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc264"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-55: 渔获编辑-导入多媒体4&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击上传照片</p>
+</td><td><p>弹出面板</p>
+
+<p>让你选择要用哪种方式导入照片</p>
+</td></tr><tr><td width="5">2</td><td><p>点击从手机相册选择</p>
+</td><td><p>弹出相册</p>
+</td></tr><tr><td width="5">3</td><td><p>选择3张照片</p>
+
+<p>点击完成</p>
+</td><td><p>返回约钓编辑 界面</p>
+
+<p>界面上显示 刚刚选择的照片</p>
+
+<p>并且可以继续选择更多的照片</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc259"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-54: 渔获编辑-导入多媒体3&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击上传照片</p>
+</td><td><p>弹出面板</p>
+
+<p>让你选择要用哪种方式导入照片</p>
+</td></tr><tr><td width="5">2</td><td><p>点击从手机相册选择</p>
+</td><td><p>弹出相册</p>
+</td></tr><tr><td width="5">3</td><td><p>选择2张照片</p>
+
+<p>点击完成</p>
+</td><td><p>返回约钓编辑 界面</p>
+
+<p>界面上显示 刚刚选择的照片</p>
+
+<p>并且可以继续选择照片</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc254"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-53: 渔获编辑-导入多媒体2&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击上传照片</p>
+</td><td><p>弹出面板</p>
+
+<p>让你选择要用哪种方式导入照片</p>
+</td></tr><tr><td width="5">2</td><td><p>点击从手机相册选择</p>
+</td><td><p>弹出相册</p>
+</td></tr><tr><td width="5">3</td><td><p>选择一张照片</p>
+
+<p>点击完成</p>
+</td><td><p>返回约钓编辑 界面</p>
+
+<p>界面上显示 刚刚选择的照片</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc246"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-50: 渔获编辑-导入多媒体&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击上传照片</p>
+</td><td><p>弹出面板</p>
+
+<p>让你选择要用哪种方式导入照片</p>
+</td></tr><tr><td width="5">2</td><td><p>点击拍摄</p>
+</td><td><p>弹出相机</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc248"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-51: 渔获编辑-编辑文字&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击发表文字下面的编辑框</p>
+
+<p>输入100个文字</p>
+</td><td><p>成功显示出100个文字</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc250"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-52: 渔获编辑-checkbox勾选&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_1_12'></a>
+<h4 class='doclevel'>1.1.1.12.测试用例集 : 搜索地点</h4>
+<a name="toc_tc405"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-89: 搜索钓点&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击导航栏的第一个进入首页</p>
+
+<p>点击地图顶部的输入框</p>
+</td><td><p>虚拟键盘打开</p>
+</td></tr><tr><td width="5">2</td><td><p>输入</p>
+
+<p>浙江大学城市学院</p>
+
+<p>回车</p>
+</td><td><p>下拉列表中展示</p>
+
+<p>浙江大学城市学院</p>
+
+<p>以及 浙江大学城市学院附近的钓点</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc13"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-3: 打开新增钓点页面&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>从首页转跳到，新增钓点的页面</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户打开APP</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击NEW</p>
+</td><td><p>背景暗化+模糊，弹出4个选项，其中有一个选项是</p>
+
+<p>新增钓点</p>
+</td></tr><tr><td width="5">2</td><td><p>点击 新增钓点</p>
+</td><td><p>主界面变成 新增钓点的 界面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc15"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-4: 打开新增渔具店页面&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>从主界面 变成 新增渔具店页面</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户打开APP</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击NEW</p>
+</td><td><p>背景暗化+模糊，弹出4个选项，其中有一个选项是<br />
+新增渔具店</p>
+</td></tr><tr><td width="5">2</td><td><p>点击 新增渔具店</p>
+</td><td><p>主界面变成 新增渔具店的界面</p>
+</td></tr><tr><td width="5">3</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc17"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-5: 打开发起约钓界面&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>从主界面打开约钓的界面</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户打开APP</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击NEW</p>
+</td><td><p>背景暗化+模糊，弹出4个选项，其中有一个选项是</p>
+
+<p>发起约钓</p>
+</td></tr><tr><td width="5">2</td><td><p>点击发起约钓</p>
+</td><td><p>主界面变成发起约钓的界面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc28"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-6: 打开发表渔获&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">user</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>主界面变成发表渔获的界面</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户打开APP</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击NEW</p>
+</td><td><p>背景暗化+模糊，弹出4个选项，其中有一个选项是<br />
+发表渔获</p>
+</td></tr><tr><td width="5">2</td><td><p>点击 发表渔获</p>
+</td><td><p>主界面变成 发表渔获 的界面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_2'></a>
+<h3 class='doclevel'>1.1.2.测试用例集 : 聊天中心</h3>
+<a name='toc_1_1_2_1'></a>
+<h4 class='doclevel'>1.1.2.1.测试用例集 : 单独聊天</h4>
+<a name='toc_1_1_2_1_1'></a>
+<h5 class='doclevel'>1.1.2.1.1.测试用例集 : 文本输入</h5>
+<a name="toc_tc330"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-71: 单独聊天-输入文本5&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>字符长度校验，输入是缓冲区溢出的超长字符，默认字符，空字符，特殊字符</p>
+</td><td><p>超出100个字的内容 不现实</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc327"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-70: 单独聊天-输入文本4&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入任意的100个内的字符</p>
+</td><td><p>发送的内容是否一样</p>
+
+<p>数据提交后查看数据库中的内容是否正确</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc324"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-69: 单独聊天-输入文本3&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入特殊字符串如null，&amp;nbsp空格，回车转义符</p>
+</td><td><p>null发送null</p>
+
+<p>&amp;nbsp 发送&amp;nbsp</p>
+
+<p>回车转义符 发送 \n</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc321"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-68: 单独聊天-输入文本2&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入全角/半角的数字，大小写英文</p>
+</td><td><p>输出全角/半角的数字，大小写英文</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc318"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-67: 单独聊天-输入文本&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入中英文空格，字符串中间空格，首尾空格，回车换行符</p>
+</td><td><p>发送 输入中英文空格，字符串中间空格，首尾空格，</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_2_1_2'></a>
+<h5 class='doclevel'>1.1.2.1.2.测试用例集 : 表情输入</h5>
+<a name='toc_1_1_2_1_3'></a>
+<h5 class='doclevel'>1.1.2.1.3.测试用例集 : 多媒体发送</h5>
+<a name='toc_1_1_2_1_4'></a>
+<h5 class='doclevel'>1.1.2.1.4.测试用例集 : 语音通话</h5>
+<a name='toc_1_1_2_2'></a>
+<h4 class='doclevel'>1.1.2.2.测试用例集 : 群聊</h4>
+<a name='toc_1_1_3'></a>
+<h3 class='doclevel'>1.1.3.测试用例集 : 个人中心</h3>
+<a name='toc_1_1_4'></a>
+<h3 class='doclevel'>1.1.4.测试用例集 : 随便逛逛</h3>
+<a name='toc_1_1_4_1'></a>
+<h4 class='doclevel'>1.1.4.1.测试用例集 : 附近渔友列表排序</h4>
+<a name="toc_tc312"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-66: 附近渔友-热度排序&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点开下方的导航条</p>
+
+<p>附近渔友</p>
+</td><td><p>显示出附近渔友列表</p>
+</td></tr><tr><td width="5">2</td><td><p>点击上方的导航条中的按 热度</p>
+</td><td><p>从上到下的 条目按照热度递减排序</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc308"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-65: 附近渔友-时间排序&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点开下方的导航条</p>
+
+<p>附近渔友</p>
+</td><td><p>显示出附近渔友列表</p>
+</td></tr><tr><td width="5">2</td><td><p>点击上方的导航条中的按 时间</p>
+</td><td><p>从上到下的 条目按照 时间 递减排序</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_5'></a>
+<h3 class='doclevel'>1.1.5.测试用例集 : 封面</h3>
+<a name='toc_1_1_5_1'></a>
+<h4 class='doclevel'>1.1.5.1.测试用例集 : 注册</h4>
+<a name="toc_tc475"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-110: 注册账号3&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">前提:</span><br /><p>通过了 地区选择 和 获取验证码 之后</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>验证码输入正确，但是输入时间过长</p>
+
+<p>点击完成注册并登陆</p>
+</td><td><p>弹出验证码错误</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc472"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-109: 注册账号2&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">前提:</span><br /><p>通过了 地区选择 和 获取验证码 之后</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>验证码输入正确</p>
+
+<p>输入密码</p>
+
+<p>点击完成注册并登陆</p>
+</td><td><p>弹出成功注册！</p>
+</td></tr><tr><td width="5">2</td><td><p>等待2s</p>
+</td><td><p>转入主界面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc466"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-107: 获取验证码11&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>通过校验手机号的格式</p>
+
+<p>判断是否要发送验证码</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户输入了手机号</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入数字开头几位不正确</p>
+
+<p>点击获取验证码</p>
+</td><td><p>提示 错误数据</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc463"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-106: 获取验证码10&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>通过校验手机号的格式</p>
+
+<p>判断是否要发送验证码</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户输入了手机号</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入 18754546328</p>
+
+<p>点击获取验证码</p>
+</td><td><p>提示 请查收短信</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc460"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-105: 获取验证码9&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>通过校验手机号的格式</p>
+
+<p>判断是否要发送验证码</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户输入了手机号</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>结尾存在空格</p>
+
+<p>点击获取验证码</p>
+</td><td><p>提示 错误数据</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc457"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-104: 获取验证码8&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>通过校验手机号的格式</p>
+
+<p>判断是否要发送验证码</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户输入了手机号</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>手机号码中间有空格</p>
+
+<p>点击获取验证码</p>
+</td><td><p>提示 错误数据</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc454"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-103: 获取验证码7&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>通过校验手机号的格式</p>
+
+<p>判断是否要发送验证码</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户输入了手机号</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>手机号码开头有空格</p>
+
+<p>点击获取验证码</p>
+</td><td><p>提示 错误数据</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc451"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-102: 获取验证码6&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>通过校验手机号的格式</p>
+
+<p>判断是否要发送验证码</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户输入了手机号</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入为特殊字符 &amp;*&amp;*&amp;*</p>
+
+<p>点击获取验证码</p>
+</td><td><p>提示 错误数据</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc448"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-101: 获取验证码5&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>通过校验手机号的格式</p>
+
+<p>判断是否要发送验证码</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户输入了手机号</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入数字长度多于11位</p>
+
+<p>点击获取验证码</p>
+</td><td><p>提示 错误数据</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc444"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-100: 获取验证码4&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>通过校验手机号的格式</p>
+
+<p>判断是否要发送验证码</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户输入了手机号</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入数字长度少于11位</p>
+
+<p>点击获取验证码</p>
+</td><td><p>提示 错误数据</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc441"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-99: 获取验证码3&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>通过校验手机号的格式</p>
+
+<p>判断是否要发送验证码</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户输入了手机号</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入为中文字符</p>
+
+<p>点击获取验证码</p>
+</td><td><p>提示 错误数据</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc438"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-98: 获取验证码2&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>通过校验手机号的格式</p>
+
+<p>判断是否要发送验证码</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户输入了手机号</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入为英文字符</p>
+
+<p>点击获取验证码</p>
+</td><td><p>提示 错误数据</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc431"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-96: 地区选择2&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>在注册账号界面选择国家和地区</p>
+
+<p>在发送短信的时候可以用当地的相关的服务器</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击 最上面的 地区选择器</p>
+
+<p>不使用默认的选项&ldquo;中国大陆&rdquo;</p>
+</td><td><p>跳出一个国家地区的列表</p>
+</td></tr><tr><td width="5">2</td><td><p>选择 美国</p>
+</td><td><p>下面的手机号的 前缀是 是 +001</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc428"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-95: 地区选择&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>在注册账号界面选择国家和地区</p>
+
+<p>在发送短信的时候可以用当地的相关的服务器</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>不点击，使用默认的选项&ldquo;中国大陆&rdquo;</p>
+</td><td><p>下面的手机号的 前缀是 是+86</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc435"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-97: 获取验证码&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>通过校验手机号的格式</p>
+
+<p>判断是否要发送验证码</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>用户输入了手机号</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入为空格</p>
+
+<p>点击获取验证码</p>
+</td><td><p>提示 错误数据</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc469"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-108: 注册账号&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">前提:</span><br /><p>通过了 地区选择 和 获取验证码 之后</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>验证码错误</p>
+
+<p>点击完成注册并登陆</p>
+</td><td><p>弹出验证码错误</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_1_5_2'></a>
+<h4 class='doclevel'>1.1.5.2.测试用例集 : 登陆</h4>
+<a name="toc_tc424"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-94: 手机号输入5&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>输入不同格式的手机号</p>
+
+<p>判断这个用户是否合法</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入</p>
+
+<p>手机号码：阿斯顿法国红酒看来去微软爱上了科技发达</p>
+
+<p>输入密码：12345678</p>
+
+<p>点击 登陆</p>
+</td><td><p>弹窗 手机号格式不对</p>
+
+<p>然后还是在登陆页面</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc421"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-93: 手机号输入4&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>输入不同格式的手机号</p>
+
+<p>判断这个用户是否合法</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入</p>
+
+<p>手机号码：111111111111111</p>
+
+<p>输入密码：12345678</p>
+
+<p>点击 登陆</p>
+</td><td><p>弹窗 手机号格式不对</p>
+
+<p>然后还是在登陆页面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc418"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-92: 手机号输入3&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>输入不同格式的手机号</p>
+
+<p>判断这个用户是否合法</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入</p>
+
+<p>手机号码：1777400</p>
+
+<p>输入密码：12345678</p>
+
+<p>点击 登陆</p>
+</td><td><p>弹窗 手机号格式不对</p>
+
+<p>然后还是在登陆页面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc415"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-91: 手机号输入2&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入</p>
+
+<p>手机号码：17774009906</p>
+
+<p>输入密码：12345678</p>
+
+<p>点击 登陆</p>
+</td><td><p>弹窗 验证失败</p>
+
+<p>然后还是在登陆页面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc412"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-90: 手机号输入&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>输入</p>
+
+<p>手机号码：17774009906</p>
+
+<p>输入密码：12345678</p>
+
+<p>点击 登陆</p>
+</td><td><p>弹窗 登陆成功</p>
+
+<p>然后进入 地图的主界面</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc479"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-111: 登陆转注册&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>游客想要注册个账号</p>
+</td></tr><tr><td colspan="4"><span class="label">前提:</span><br /><p>处于网络环境</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_2'></a>
+<h2 class='doclevel'>1.2.测试用例集 : 适配性</h2>
+<a name="toc_tc370"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-80: 中断测试4&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>使用过程中手机锁屏</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>如关机，断电，来电</p>
+</td><td><p>手机黑屏</p>
+</td></tr><tr><td width="5">2</td><td><p>解锁手机</p>
+</td><td><p>应用正常运行</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc364"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-79: 中断测试3&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>使用过程中手机锁屏</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>关机，断电，来电</p>
+</td><td><p>手机黑屏</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="5">3</td><td><p>解锁手机</p>
+</td><td><p>应用正常运行</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_2_1'></a>
+<h3 class='doclevel'>1.2.1.测试用例集 : 机型适配1</h3>
+<a name="toc_tc377"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-81: 分辨率适配&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>VGA（640&times;480像素），QVGA（240&times;320像素），HVGA（480&times;320像素），WVGA（854&times;480像素、800&times;480像素）， QCIF（176&times;144像素、176&times;220像素、96&times;96像素、128&times;128像素）</p>
+
+<p>在这些像素条件下，安装软件。</p>
+</td><td><p>检查适配性</p>
+
+<p>UI结构不会出现比较大的不同</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc398"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-87: OS版本适配&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>选择适当的机型进行安装和使用</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc401"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-88: CPU硬件配置&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>选择适当的机型进行测试</p>
+</td><td></td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc358"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-78: 中断测试2&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>使用过程中手机锁屏</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>页面界接口请求，界面框架加载时，Home键，中断</p>
+</td><td><p>转到应用的桌面</p>
+</td></tr><tr><td width="5">2</td><td><p>按下 返回键</p>
+</td><td><p>加载完毕后 再相应返回键</p>
+</td></tr><tr><td width="5">4</td><td><p>重新打开印用</p>
+</td><td><p>应用正常运行</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_2_2'></a>
+<h3 class='doclevel'>1.2.2.测试用例集 : 升级 覆盖安装</h3>
+<a name="toc_tc389"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-85: 用户数据保留4&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>隔开版本覆盖安装</p>
+</td><td><p>重新打开APP之后，</p>
+
+<p>可以自动登陆</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc386"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-84: 用户数据保留3&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>卸载安装：卸载安装</p>
+</td><td><p>用户手机桌面图标被删除</p>
+</td></tr><tr><td width="5">2</td><td><p>重新安装程序</p>
+</td><td><table>
+	<tbody>
+		<tr>
+			<td>
+			<p>&nbsp;</p>
+			</td>
+			<td>
+			<p>重新打开APP之后，</p>
+
+			<p>可以自动登陆</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc383"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-83: 用户数据保留2&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>升级系统版本</p>
+</td><td><p>重新打开APP之后，</p>
+
+<p>可以自动登陆</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc380"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-82: 用户数据保留&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>覆盖安装更低版本</p>
+</td><td><p>重新打开APP之后，</p>
+
+<p>可以自动登陆</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc393"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-86: 升级提示&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>在移动网络的接入条件下，发现有更新</p>
+</td><td><p>提示用户更新APP</p>
+</td></tr><tr><td width="5">2</td><td><p>用户选择不更新</p>
+</td><td><p>退出程序</p>
+</td></tr><tr><td width="5">3</td><td><p>没有更新或者网络</p>
+</td><td><p>需要给予用户正确的信息表达。</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc338"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-72: 应用安装&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>用户下载了安装包</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>点击应用图标</p>
+</td><td><p>是否出现欢迎界面，欢迎界面的停留时间，欢迎界面后是否正常进入应用</p>
+
+<p>首次启动时间是否合理</p>
+
+<p>该拉取的信息是否正确</p>
+
+<p>桌面图标是否创建成功，功能启动快捷键创建是否成功（某些安卓手机会有在桌面创建快捷键的需求）</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc341"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-73: 应用启动&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>用户在上次登陆过后的话，二次启动 应用</p>
+</td><td><p>自动登陆</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc344"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-74: 程序异常退出后的启动&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>之前的程序突然退出</p>
+</td><td><p>可以重新成功启动程序</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc347"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-75: 网络缓慢&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>设置缓慢的网络环境</p>
+</td><td><p>进入应用之后，使用转圈圈的图标示意用户网络缓慢</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc350"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-76: 网络中断&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>移动地图</p>
+</td><td><p>地图 不会自动的加载</p>
+</td></tr><tr><td width="5">2</td><td><p>和其他人进行聊天</p>
+</td><td><p>跳出提示</p>
+
+<p>网络不通而不能通信</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc354"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">测试用例 渔乐生活G06-77: 中断测试&nbsp;<span style="font-size: 80%;">[版本 : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">作者:</span></td><td colspan="3">lpc</td></tr>
+<tr><td colspan="4"><span class="label">摘要:</span><br /><p>使用过程中手机锁屏</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">步骤动作:</span></td><td><span class="label">期望的结果:</span></td></tr><tr><td width="5">1</td><td><p>正常使用过程中 把本应用切换到后台</p>
+</td><td><p>手机开始显示另外一个APP中</p>
+</td></tr><tr><td width="5">2</td><td><p>把应用切换回去</p>
+</td><td><p>应用正常运行</p>
+</td></tr><tr><td width="5">3</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">测试方式:</span></td><td colspan="3">手工</td></tr>
+<tr><td width="20%" valign="top"><span class="label">测试执行时间 (分钟):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">重要性:</span></td><td colspan="3">中</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">产品需求</span><td colspan="3">&nbsp;无<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">关键字:</span></td><td colspan="3">&nbsp;无<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>
