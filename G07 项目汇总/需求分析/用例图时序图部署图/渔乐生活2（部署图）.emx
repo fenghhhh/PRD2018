@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational 建模平台（com.ibm.xtools.rmp）" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_e8jDQysPEeqy7ohtvHrSwQ" name="渔乐生活2">
+  <eAnnotations xmi:id="_e8jDRCsPEeqy7ohtvHrSwQ" source="uml2.diagrams" references="_e8jDRSsPEeqy7ohtvHrSwQ">
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_e8jDRSsPEeqy7ohtvHrSwQ" type="Freeform" name="Main"/>
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="__jnr0Cr-EeqGBe3Gsd9CQQ" type="Deployment" name="DeploymentDiagram1">
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_Zb-fACsBEeqXRKQ1ecPX7w" fontName="微软雅黑" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Zb-fAisBEeqXRKQ1ecPX7w" type="ImageCompartment">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_Zb-fAysBEeqXRKQ1ecPX7w" width="1320" height="1320"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_Zb-fBCsBEeqXRKQ1ecPX7w" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_Zb-fBSsBEeqXRKQ1ecPX7w" type="Kind"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_Zb-fBisBEeqXRKQ1ecPX7w" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_Zb-fBysBEeqXRKQ1ecPX7w" type="Parent"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_Zb-fCCsBEeqXRKQ1ecPX7w" visible="false" type="TaggedValueSet"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZcHo8CsBEeqXRKQ1ecPX7w" type="AttributeCompartment">
+          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_rSBdECsNEeqXRKQ1ecPX7w" value="0.16331360946745563"/>
+        </children>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZcHo8SsBEeqXRKQ1ecPX7w" type="OperationCompartment">
+          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_rSBdESsNEeqXRKQ1ecPX7w" value="0.15857988165680473"/>
+        </children>
+        <children xmi:type="notation:ListCompartment" xmi:id="_ZcHo8isBEeqXRKQ1ecPX7w" visible="false" type="DeploymentListCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_ZcHo8ysBEeqXRKQ1ecPX7w" visible="false" type="DeploymentShapeCompartment"/>
+        <children xmi:type="notation:ListCompartment" xmi:id="_ZcRZ8CsBEeqXRKQ1ecPX7w" visible="false" type="NestedNodeListCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_ZcRZ8SsBEeqXRKQ1ecPX7w" visible="false" type="NestedNodeShapeCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_ZcRZ8isBEeqXRKQ1ecPX7w" type="StructureCompartment">
+          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_rSBdEisNEeqXRKQ1ecPX7w" value="0.6781065088757396"/>
+        </children>
+        <element xmi:type="uml:Node" href="空白%20Rose%20包.emx#_ZZJNcCsBEeqXRKQ1ecPX7w?渔乐生活/NAS?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zb-fASsBEeqXRKQ1ecPX7w" x="4620" y="264" width="5046" height="4251"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_jB9g0SsMEeqXRKQ1ecPX7w" fontName="微软雅黑" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image">
+        <children xmi:type="notation:DecorationNode" xmi:id="_jB9g0ysMEeqXRKQ1ecPX7w" type="ImageCompartment">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_jB9g1CsMEeqXRKQ1ecPX7w" width="1320" height="1320"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_jB9g1SsMEeqXRKQ1ecPX7w" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_jB9g1isMEeqXRKQ1ecPX7w" type="Kind"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_jB9g1ysMEeqXRKQ1ecPX7w" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_jB9g2CsMEeqXRKQ1ecPX7w" type="Parent"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_jB9g2SsMEeqXRKQ1ecPX7w" visible="false" type="TaggedValueSet"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_jB9g2isMEeqXRKQ1ecPX7w" type="AttributeCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_jCGqwCsMEeqXRKQ1ecPX7w" type="OperationCompartment"/>
+        <children xmi:type="notation:ListCompartment" xmi:id="_jCGqwSsMEeqXRKQ1ecPX7w" visible="false" type="DeploymentListCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_jCGqwisMEeqXRKQ1ecPX7w" visible="false" type="DeploymentShapeCompartment"/>
+        <children xmi:type="notation:ListCompartment" xmi:id="_jCGqwysMEeqXRKQ1ecPX7w" visible="false" type="NestedNodeListCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_jCGqxCsMEeqXRKQ1ecPX7w" visible="false" type="NestedNodeShapeCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_jCGqxSsMEeqXRKQ1ecPX7w" type="StructureCompartment"/>
+        <element xmi:type="uml:Node" href="空白%20Rose%20包.emx#_jB9g0CsMEeqXRKQ1ecPX7w?渔乐生活/数据库?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jB9g0isMEeqXRKQ1ecPX7w" x="21384" y="396"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_p-ywESsMEeqXRKQ1ecPX7w" fontName="微软雅黑" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image">
+        <children xmi:type="notation:DecorationNode" xmi:id="_p-ywEysMEeqXRKQ1ecPX7w" type="ImageCompartment">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_p-ywFCsMEeqXRKQ1ecPX7w" width="1320" height="1320"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_p-ywFSsMEeqXRKQ1ecPX7w" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_p-ywFisMEeqXRKQ1ecPX7w" type="Kind"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_p-ywFysMEeqXRKQ1ecPX7w" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_p-76ACsMEeqXRKQ1ecPX7w" type="Parent"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_p-76ASsMEeqXRKQ1ecPX7w" visible="false" type="TaggedValueSet"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_p-76AisMEeqXRKQ1ecPX7w" type="AttributeCompartment">
+          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_we6OICsMEeqXRKQ1ecPX7w" value="0.1356509884117246"/>
+        </children>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_p-76AysMEeqXRKQ1ecPX7w" type="OperationCompartment">
+          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_we6OISsMEeqXRKQ1ecPX7w" value="0.1438309475119291"/>
+        </children>
+        <children xmi:type="notation:ListCompartment" xmi:id="_p-76BCsMEeqXRKQ1ecPX7w" visible="false" type="DeploymentListCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_p-76BSsMEeqXRKQ1ecPX7w" visible="false" type="DeploymentShapeCompartment"/>
+        <children xmi:type="notation:ListCompartment" xmi:id="_p-76BisMEeqXRKQ1ecPX7w" visible="false" type="NestedNodeListCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_p-76BysMEeqXRKQ1ecPX7w" visible="false" type="NestedNodeShapeCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_p-76CCsMEeqXRKQ1ecPX7w" type="StructureCompartment">
+          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_we6OIisMEeqXRKQ1ecPX7w" value="0.7205180640763463"/>
+        </children>
+        <element xmi:type="uml:Node" href="空白%20Rose%20包.emx#_p-ywECsMEeqXRKQ1ecPX7w?渔乐生活/服务器?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p-ywEisMEeqXRKQ1ecPX7w" x="6732" y="5280" width="18133" height="4781"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="__dUuMCsMEeqXRKQ1ecPX7w" fontName="微软雅黑" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image">
+        <children xmi:type="notation:DecorationNode" xmi:id="__dUuMisMEeqXRKQ1ecPX7w" type="ImageCompartment">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="__dUuMysMEeqXRKQ1ecPX7w" width="1320" height="1320"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="__dUuNCsMEeqXRKQ1ecPX7w" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="__dUuNSsMEeqXRKQ1ecPX7w" type="Kind"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="__dUuNisMEeqXRKQ1ecPX7w" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="__dUuNysMEeqXRKQ1ecPX7w" type="Parent"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="__dUuOCsMEeqXRKQ1ecPX7w" visible="false" type="TaggedValueSet"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="__dUuOSsMEeqXRKQ1ecPX7w" type="AttributeCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="__dUuOisMEeqXRKQ1ecPX7w" type="OperationCompartment"/>
+        <children xmi:type="notation:ListCompartment" xmi:id="__dUuOysMEeqXRKQ1ecPX7w" visible="false" type="DeploymentListCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="__dUuPCsMEeqXRKQ1ecPX7w" visible="false" type="DeploymentShapeCompartment"/>
+        <children xmi:type="notation:ListCompartment" xmi:id="__defMCsMEeqXRKQ1ecPX7w" visible="false" type="NestedNodeListCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="__defMSsMEeqXRKQ1ecPX7w" visible="false" type="NestedNodeShapeCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="__defMisMEeqXRKQ1ecPX7w" type="StructureCompartment"/>
+        <element xmi:type="uml:Node" href="空白%20Rose%20包.emx#__dLkQCsMEeqXRKQ1ecPX7w?渔乐生活/移动客户端?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__dUuMSsMEeqXRKQ1ecPX7w" x="3564" y="11220"/>
+      </children>
+      <element xsi:nil="true"/>
+      <edges xmi:type="umlnotation:UMLConnector" xmi:id="_kjK_cCsNEeqXRKQ1ecPX7w" source="_Zb-fACsBEeqXRKQ1ecPX7w" target="_p-ywESsMEeqXRKQ1ecPX7w" fontName="微软雅黑" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="None">
+        <children xmi:type="notation:DecorationNode" xmi:id="_kjK_cisNEeqXRKQ1ecPX7w" type="NameLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_kjK_dCsNEeqXRKQ1ecPX7w" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_kjK_dSsNEeqXRKQ1ecPX7w" type="Name"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kjK_cysNEeqXRKQ1ecPX7w" y="-186"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kjK_disNEeqXRKQ1ecPX7w" type="ToMultiplicityLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_kjK_eCsNEeqXRKQ1ecPX7w" type="ToMultiplicity"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_kjB1hCsNEeqXRKQ1ecPX7w?渔乐生活/服务器/nAS?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_kjK_dysNEeqXRKQ1ecPX7w" y="396"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kjK_eSsNEeqXRKQ1ecPX7w" type="ToRoleLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_kjK_eysNEeqXRKQ1ecPX7w" type="ToRole"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_kjB1hCsNEeqXRKQ1ecPX7w?渔乐生活/服务器/nAS?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_kjK_eisNEeqXRKQ1ecPX7w" y="-397"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kjUwcCsNEeqXRKQ1ecPX7w" type="FromMultiplicityLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_kjUwcisNEeqXRKQ1ecPX7w" type="FromMultiplicity"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_kjB1gSsNEeqXRKQ1ecPX7w?渔乐生活/NAS/服务器?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_kjUwcSsNEeqXRKQ1ecPX7w" y="396"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kjUwcysNEeqXRKQ1ecPX7w" type="FromRoleLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_kjUwdSsNEeqXRKQ1ecPX7w" type="FromRole"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_kjB1gSsNEeqXRKQ1ecPX7w?渔乐生活/NAS/服务器?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_kjUwdCsNEeqXRKQ1ecPX7w" y="-397"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kjUwdisNEeqXRKQ1ecPX7w" type="ToQualifierLabel">
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_kjUweCsNEeqXRKQ1ecPX7w" type="QualifierCompartment"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_kjB1hCsNEeqXRKQ1ecPX7w?渔乐生活/服务器/nAS?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_kjUwdysNEeqXRKQ1ecPX7w" y="-186"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kjUweSsNEeqXRKQ1ecPX7w" type="FromQualifierLabel">
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_kjUweysNEeqXRKQ1ecPX7w" type="QualifierCompartment"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_kjB1gSsNEeqXRKQ1ecPX7w?渔乐生活/NAS/服务器?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_kjUweisNEeqXRKQ1ecPX7w" y="-186"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kjUwfCsNEeqXRKQ1ecPX7w" type="ToConstraintLabel">
+          <children xmi:type="notation:ListCompartment" xmi:id="_kjUwfisNEeqXRKQ1ecPX7w" type="ToConstraintCompartment"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_kjB1hCsNEeqXRKQ1ecPX7w?渔乐生活/服务器/nAS?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_kjUwfSsNEeqXRKQ1ecPX7w" y="1058"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kjUwfysNEeqXRKQ1ecPX7w" type="FromConstraintLabel">
+          <children xmi:type="notation:ListCompartment" xmi:id="_kjUwgSsNEeqXRKQ1ecPX7w" type="FromConstraintCompartment"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_kjB1gSsNEeqXRKQ1ecPX7w?渔乐生活/NAS/服务器?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_kjUwgCsNEeqXRKQ1ecPX7w" y="1058"/>
+        </children>
+        <element xmi:type="uml:CommunicationPath" href="空白%20Rose%20包.emx#_kjB1gCsNEeqXRKQ1ecPX7w?渔乐生活/%3CCommunicationPath%3E?"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kjK_cSsNEeqXRKQ1ecPX7w" points="[2431, -364, -5620, -6440]$[4908, -364, -3143, -6440]$[4908, 2587, -3143, -3489]"/>
+      </edges>
+      <edges xmi:type="umlnotation:UMLConnector" xmi:id="_ochPkCsNEeqXRKQ1ecPX7w" source="_jB9g0SsMEeqXRKQ1ecPX7w" target="_p-ywESsMEeqXRKQ1ecPX7w" fontName="微软雅黑" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="None">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ochPkisNEeqXRKQ1ecPX7w" type="NameLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_ochPlCsNEeqXRKQ1ecPX7w" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_ochPlSsNEeqXRKQ1ecPX7w" type="Name"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ochPkysNEeqXRKQ1ecPX7w" y="-186"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ochPlisNEeqXRKQ1ecPX7w" type="ToMultiplicityLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_ochPmCsNEeqXRKQ1ecPX7w" type="ToMultiplicity"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_ocXelCsNEeqXRKQ1ecPX7w?渔乐生活/服务器/数据库?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ochPlysNEeqXRKQ1ecPX7w" y="396"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ochPmSsNEeqXRKQ1ecPX7w" type="ToRoleLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_ochPmysNEeqXRKQ1ecPX7w" type="ToRole"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_ocXelCsNEeqXRKQ1ecPX7w?渔乐生活/服务器/数据库?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ochPmisNEeqXRKQ1ecPX7w" y="-397"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ochPnCsNEeqXRKQ1ecPX7w" type="FromMultiplicityLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_ochPnisNEeqXRKQ1ecPX7w" type="FromMultiplicity"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_ocXekSsNEeqXRKQ1ecPX7w?渔乐生活/数据库/服务器?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ochPnSsNEeqXRKQ1ecPX7w" y="396"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ochPnysNEeqXRKQ1ecPX7w" type="FromRoleLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_ochPoSsNEeqXRKQ1ecPX7w" type="FromRole"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_ocXekSsNEeqXRKQ1ecPX7w?渔乐生活/数据库/服务器?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ochPoCsNEeqXRKQ1ecPX7w" y="-397"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ochPoisNEeqXRKQ1ecPX7w" type="ToQualifierLabel">
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_ochPpCsNEeqXRKQ1ecPX7w" type="QualifierCompartment"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_ocXelCsNEeqXRKQ1ecPX7w?渔乐生活/服务器/数据库?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ochPoysNEeqXRKQ1ecPX7w" y="-186"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ochPpSsNEeqXRKQ1ecPX7w" type="FromQualifierLabel">
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_ochPpysNEeqXRKQ1ecPX7w" type="QualifierCompartment"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_ocXekSsNEeqXRKQ1ecPX7w?渔乐生活/数据库/服务器?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ochPpisNEeqXRKQ1ecPX7w" y="-186"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ochPqCsNEeqXRKQ1ecPX7w" type="ToConstraintLabel">
+          <children xmi:type="notation:ListCompartment" xmi:id="_ochPqisNEeqXRKQ1ecPX7w" type="ToConstraintCompartment"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_ocXelCsNEeqXRKQ1ecPX7w?渔乐生活/服务器/数据库?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ochPqSsNEeqXRKQ1ecPX7w" y="1058"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ochPqysNEeqXRKQ1ecPX7w" type="FromConstraintLabel">
+          <children xmi:type="notation:ListCompartment" xmi:id="_ochPrSsNEeqXRKQ1ecPX7w" type="FromConstraintCompartment"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_ocXekSsNEeqXRKQ1ecPX7w?渔乐生活/数据库/服务器?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ochPrCsNEeqXRKQ1ecPX7w" y="1058"/>
+        </children>
+        <element xmi:type="uml:CommunicationPath" href="空白%20Rose%20包.emx#_ocXekCsNEeqXRKQ1ecPX7w?渔乐生活/%3CCommunicationPath%3E?"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ochPkSsNEeqXRKQ1ecPX7w" points="[-2322, -66, 6150, -6869]$[-4471, -66, 4001, -6869]$[-4471, 3314, 4001, -3489]"/>
+      </edges>
+      <edges xmi:type="umlnotation:UMLConnector" xmi:id="_8FD8cCsNEeqXRKQ1ecPX7w" source="__dUuMCsMEeqXRKQ1ecPX7w" target="_p-ywESsMEeqXRKQ1ecPX7w" fontName="微软雅黑" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="None">
+        <children xmi:type="notation:DecorationNode" xmi:id="_8FD8cisNEeqXRKQ1ecPX7w" type="NameLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_8FD8dCsNEeqXRKQ1ecPX7w" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_8FD8dSsNEeqXRKQ1ecPX7w" type="Name"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8FD8cysNEeqXRKQ1ecPX7w" y="-186"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8FD8disNEeqXRKQ1ecPX7w" type="ToMultiplicityLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_8FD8eCsNEeqXRKQ1ecPX7w" type="ToMultiplicity"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_8E6LdCsNEeqXRKQ1ecPX7w?渔乐生活/服务器/移动客户端?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8FD8dysNEeqXRKQ1ecPX7w" y="396"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8FD8eSsNEeqXRKQ1ecPX7w" type="ToRoleLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_8FD8eysNEeqXRKQ1ecPX7w" type="ToRole"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_8E6LdCsNEeqXRKQ1ecPX7w?渔乐生活/服务器/移动客户端?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8FD8eisNEeqXRKQ1ecPX7w" y="-397"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8FD8fCsNEeqXRKQ1ecPX7w" type="FromMultiplicityLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_8FD8fisNEeqXRKQ1ecPX7w" type="FromMultiplicity"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_8E6LcSsNEeqXRKQ1ecPX7w?渔乐生活/移动客户端/服务器?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8FD8fSsNEeqXRKQ1ecPX7w" y="396"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8FD8fysNEeqXRKQ1ecPX7w" type="FromRoleLabel">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_8FD8gSsNEeqXRKQ1ecPX7w" type="FromRole"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_8E6LcSsNEeqXRKQ1ecPX7w?渔乐生活/移动客户端/服务器?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8FD8gCsNEeqXRKQ1ecPX7w" y="-397"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8FD8gisNEeqXRKQ1ecPX7w" type="ToQualifierLabel">
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_8FD8hCsNEeqXRKQ1ecPX7w" type="QualifierCompartment"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_8E6LdCsNEeqXRKQ1ecPX7w?渔乐生活/服务器/移动客户端?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8FD8gysNEeqXRKQ1ecPX7w" y="-186"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8FD8hSsNEeqXRKQ1ecPX7w" type="FromQualifierLabel">
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_8FD8hysNEeqXRKQ1ecPX7w" type="QualifierCompartment"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_8E6LcSsNEeqXRKQ1ecPX7w?渔乐生活/移动客户端/服务器?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8FD8hisNEeqXRKQ1ecPX7w" y="-186"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8FD8iCsNEeqXRKQ1ecPX7w" type="ToConstraintLabel">
+          <children xmi:type="notation:ListCompartment" xmi:id="_8FD8iisNEeqXRKQ1ecPX7w" type="ToConstraintCompartment"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_8E6LdCsNEeqXRKQ1ecPX7w?渔乐生活/服务器/移动客户端?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8FD8iSsNEeqXRKQ1ecPX7w" y="1058"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8FD8iysNEeqXRKQ1ecPX7w" type="FromConstraintLabel">
+          <children xmi:type="notation:ListCompartment" xmi:id="_8FD8jSsNEeqXRKQ1ecPX7w" type="FromConstraintCompartment"/>
+          <element xmi:type="uml:Property" href="空白%20Rose%20包.emx#_8E6LcSsNEeqXRKQ1ecPX7w?渔乐生活/移动客户端/服务器?"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8FD8jCsNEeqXRKQ1ecPX7w" y="1058"/>
+        </children>
+        <element xmi:type="uml:CommunicationPath" href="空白%20Rose%20包.emx#_8E6LcCsNEeqXRKQ1ecPX7w?渔乐生活/%3CCommunicationPath%3E?"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8FD8cSsNEeqXRKQ1ecPX7w" points="[2315, 81, -7513, 5307]$[4888, 81, -4940, 5307]$[4888, -2927, -4940, 2299]"/>
+      </edges>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:id="_e8jDRisPEeqy7ohtvHrSwQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <profileApplication xmi:id="_e8jDRysPEeqy7ohtvHrSwQ">
+    <eAnnotations xmi:id="_e8jDSCsPEeqy7ohtvHrSwQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_e8jDSSsPEeqy7ohtvHrSwQ">
+    <eAnnotations xmi:id="_e8jDSisPEeqy7ohtvHrSwQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_e8jDSysPEeqy7ohtvHrSwQ">
+    <eAnnotations xmi:id="_e8jDTCsPEeqy7ohtvHrSwQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Package>
